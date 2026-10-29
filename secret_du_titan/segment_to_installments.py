@@ -5,11 +5,11 @@ import pandas as pd
 # %%
 
 CWD = Path(__file__).parent
-data = CWD / "mysteres"
-de_file = "die-geheimnisse-von-paris.txt"
+data = CWD / "secret_du_titan"
+de_file = "de.jsonl"
 
-with open(data / de_file, "r", encoding="utf-8") as f:
-    text = f.read()
+# open
+text = pd.read_json(data / de_file, lines=True)
+text.head()
 
-print(text)
 # %%
