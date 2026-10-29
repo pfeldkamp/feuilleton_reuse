@@ -9,10 +9,16 @@ client = connect(public_api_url="https://dev.impresso-project.ch/public-api/v1")
 
 # %%
 
-res = client.search.find(term="count of monte cristo", with_text_contents=True)
-res.df.head()
+res = client.search.find(term="Pierre Landry", with_text_contents=True)
+res
 
 # %%
+res = client.search.find(term="Peter Landry", with_text_contents=True)
+res
+# %%
+# see cols
+res.df.columns
+
 
 
 # %%
@@ -32,6 +38,10 @@ def img_webapp_url(uid, issue_mode=True):
 
 # %%
 
+id = "depechetoulouse-1912-08-06-a-i0090"
+
+url = img_webapp_url(id)
+url
 
 
 # %%
@@ -44,4 +54,5 @@ def img_webapp_url(uid, issue_mode=True):
  
 from impresso import OR
 
-impresso.search.find(text_reuse_cluster_id=OR("tr-nobp-all-v01-c29"))
+client.search.find(text_reuse_cluster_id=OR("jdpl-1842-07-02-a-i0018"))
+# %%

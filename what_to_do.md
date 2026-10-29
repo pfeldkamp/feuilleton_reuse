@@ -26,10 +26,10 @@ a results table for GTE vs NER vs POSITION SIGNAL vs GTE + NER and a short write
 
 
 
-
+    
 # DATA
 
-### ✅ Confirmed FR–DE pair: Montépin, *Le Secret du Titan*
+## ✅ Confirmed FR–DE pair: Montépin, *Le Secret du Titan*
 
 | Side | Title | Paper | Run | Installments | First ID |
 | --- | --- | --- | --- | --- | --- |
