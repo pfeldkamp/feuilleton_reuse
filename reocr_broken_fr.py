@@ -14,6 +14,8 @@
 #       re-OCR'd records keep the old text in "impresso_text"
 #
 # Needs: brew install tesseract + fra.traineddata in the tessdata folder.
+# Installments the search did not find can be listed by ID in
+# secret_du_titan/missing_fr_ids.txt; they are added to fr.jsonl first.
 # Re-running skips installments that were already re-OCR'd.
 import json
 import subprocess
@@ -55,6 +57,17 @@ def ocr(image_path):
 
 
 records = [json.loads(line) for line in (DATA / "fr.jsonl").read_text().splitlines()]
+
+# Installments the search missed, found by hand (one Impresso ID per line)
+known = {r["id"] for r in records}
+for item_id in (DATA / "missing_fr_ids.txt").read_text().split():
+    if item_id not in known:
+        raw = client.content_items.get(item_id).raw
+        records.append({"id": item_id, "date": raw["meta"]["date"][:10],
+                        "title": raw["text"].get("title"), "text": raw["text"]["content"],
+                        "ocr_quality": raw["semanticEnrichments"].get("ocrQuality")})
+        print(f"added {item_id} from missing_fr_ids.txt", flush=True)
+records.sort(key=lambda r: (r["date"], r["id"]))
 
 for rec in records:
     if rec.get("ocr_source") == "tesseract":

@@ -33,7 +33,6 @@ text.columns
 # %%
 
 # print the ids of all installments with "texte illegible"
-
 # get all columns
 text = pd.read_json(data / fr_file, lines=True)
 print(f"Columns in {file}: {text.columns.tolist()}")
@@ -47,13 +46,6 @@ print(f"Percentage of illegible installments in {fr_file}: {len(illegible_ids) /
 
 # %%
 
-
-
-# %%
-
-# concat all text and split it into 100 chunks
-
-# %%
 
 
 
