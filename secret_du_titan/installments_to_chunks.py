@@ -29,6 +29,23 @@ for file in [de_file, fr_file]:
 print(stats_df)
 
 # %%
+text.columns
+# %%
+
+# print the ids of all installments with "texte illegible"
+
+# get all columns
+text = pd.read_json(data / fr_file, lines=True)
+print(f"Columns in {file}: {text.columns.tolist()}")
+# get "id" col for row where "impresso_text" contains "texte illisible"
+illegible_ids = text.loc[text['impresso_text'].str.contains("texte illisible", na=False), 'id'].tolist()
+print(f"Illegible installments in {fr_file}: {illegible_ids}")
+
+# of how many retrieved document was this the case?
+print(f"Number of illegible installments in {fr_file}: {len(illegible_ids)}")
+print(f"Percentage of illegible installments in {fr_file}: {len(illegible_ids) / len(text) * 100:.2f}%")
+
+# %%
 
 
 
