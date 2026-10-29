@@ -39,3 +39,6 @@ a results table for GTE vs NER vs POSITION SIGNAL vs GTE + NER and a short write
 Notes: German (1891) is 21 years *older* than this French run, so the French original's first edition is earlier — this is a reprint. "Frei übersetzt" → expect cuts and paraphrase: a good hard test for embeddings vs. names.
 
 Also found: *Les Filles de bronze* FR in Le Figaro (Oct 1879 – Feb 1880) and La Dépêche (Oct 1889); no German version found yet.
+
+## added the OCR of scans that have "texte illegible"
+- 8, 42, 48, 53, 81, plus 58 still missing though
