@@ -129,13 +129,20 @@ for n, date, pages in todo:
     candidates = [uid for uid, row in issue.iterrows()
                   if any(p["number"] in band_tops and b[1] >= band_tops[p["number"]]
                          for p in row["facsimile.pages"] for b in p["regionCoordinates"])]
-    regions = [r for uid in candidates for r in band_regions(uid, band_tops)]
+    regions, failed = [], []
+    for uid in candidates:
+        try:
+            regions += band_regions(uid, band_tops)
+        except Exception as e:  # e.g. one item that keeps giving HTTP 502
+            print(f"  skipping {uid} after {type(e).__name__}", flush=True)
+            failed.append(uid)
     # reading order: page, then column, then top to bottom
     regions.sort(key=lambda r: (r["page"], column([r["x"]]), r["y"]))
     rec = {"n": n, "date": date, "pages": pages,
            "band_tops": {p: round(y) for p, y in band_tops.items()},
            "items": sorted({r["item"] for r in regions}),
            "n_regions": len(regions),
+           "failed_items": failed,  # items the API would not return: text is incomplete
            "text": "\n".join(r["text"] for r in regions)}
     done[n] = rec
     with path.open("a") as f:
