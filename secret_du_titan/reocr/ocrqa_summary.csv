@@ -1,0 +1,3 @@
+engine,issues,mean_ocrqa,median_ocrqa,sd_ocrqa,min_ocrqa,max_ocrqa,pooled_ocrqa,total_tokens,total_types,mean_tokens_per_issue,mean_types_per_issue
+Tesseract,14,0.786,0.804,0.062,0.673,0.868,0.785,22406,10410,1600,744
+PERO,14,0.888,0.885,0.023,0.856,0.939,0.888,22840,9925,1631,709

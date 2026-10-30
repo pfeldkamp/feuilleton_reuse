@@ -20,3 +20,7 @@ In each subfolder starting with `depechetoulouse`, two OCRed texts are generated
 ```bash
 python eval_ocrqa.py  
 ```
+(`pip install huggingface_hub pybloomfiltermmap3 matplotlib` in the same environment.)
+This writes `ocrqa_scores.csv` (per issue), `ocrqa_summary.csv` (per engine: mean, median, ...),
+`ocrqa_report.md` (results + explanation of every column) and `ocrqa_comparison.png` (per-issue chart).
+To rebuild the report and chart without rescoring: `python eval_ocrqa.py --report-only`.
