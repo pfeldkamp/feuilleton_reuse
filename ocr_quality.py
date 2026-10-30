@@ -37,16 +37,17 @@ def ocrqa(text, known):
     return round(sum(x in known for x in w) / len(w), 3) if w else None
 
 
-for lang in ["fr", "de"]:
-    known = BloomFilter.open(hf_hub_download(MODEL, f"ocrqa-wp_v{VERSION}-{lang}.bloom"))
-    path = DATA / f"{lang}.jsonl"
-    records = [json.loads(line) for line in path.read_text().splitlines()]
-    for rec in records:
-        rec["ocrqa"] = ocrqa(rec["text"], known)
-    path.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records))
+if __name__ == "__main__":  # so other scripts can import ocrqa() without rewriting the data
+    for lang in ["fr", "de"]:
+        known = BloomFilter.open(hf_hub_download(MODEL, f"ocrqa-wp_v{VERSION}-{lang}.bloom"))
+        path = DATA / f"{lang}.jsonl"
+        records = [json.loads(line) for line in path.read_text().splitlines()]
+        for rec in records:
+            rec["ocrqa"] = ocrqa(rec["text"], known)
+        path.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records))
 
-    groups = {}
-    for rec in records:
-        groups.setdefault(rec.get("ocr_source", "impresso"), []).append(rec["ocrqa"])
-    for source, scores in groups.items():
-        print(f"{lang} {source:9s} n={len(scores):3d}  mean ocrqa={sum(scores) / len(scores):.3f}")
+        groups = {}
+        for rec in records:
+            groups.setdefault(rec.get("ocr_source", "impresso"), []).append(rec["ocrqa"])
+        for source, scores in groups.items():
+            print(f"{lang} {source:9s} n={len(scores):3d}  mean ocrqa={sum(scores) / len(scores):.3f}")

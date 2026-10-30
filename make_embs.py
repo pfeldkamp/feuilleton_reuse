@@ -123,54 +123,82 @@ for out_file, col in [(tr_files[0], "de"), (fr_en, "en"), (tr_files[1], "en_fr")
 
 # %%
 # 2. Embeddings: one vector per installment
+# Also embeds the English step and the corrupted round trips (made by corrupt.py).
+# One model at a time, small batches, to keep memory low (~1 s per installment on the M3).
+import torch
 from sentence_transformers import SentenceTransformer
 
-models = ['impresso-project/histlux-gte-multilingual-base',
-          'impresso-project/OCR-diversely-robust-gte-multilingual-base']
+models = ['impresso-project/histlux-gte-multilingual-base']
+# not run, for lack of time (~1.5 h): 'impresso-project/OCR-diversely-robust-gte-multilingual-base'
+device = "mps" if torch.backends.mps.is_available() else "cpu"
+to_embed = ([de_file, fr_file] + tr_files + [transl_output / "fr_en.jsonl"]
+            + sorted((features / "corrupted").glob("fr_en_fr_noise*.jsonl")))
 
 for name in models:
     model = None
-    for file in [de_file, fr_file] + tr_files:
+    for file in to_embed:
         out = emb_output / f"{file.stem}__{name.split('/')[-1]}.jsonl"
         if out.exists() or not file.exists():
             continue
-        model = model or SentenceTransformer(name, trust_remote_code=True)
+        model = model or SentenceTransformer(name, trust_remote_code=True, device=device)
         records = read_jsonl(file)
-        embeddings = model.encode([r["text"] for r in records], show_progress_bar=True)
+        embeddings = model.encode([r["text"] for r in records], batch_size=2, show_progress_bar=False)
         write_jsonl(out, [{**meta(r), "embedding": e.tolist()} for r, e in zip(records, embeddings)])
-        print(f"Saved embeddings for {file.name} using model {name}")
+        print(f"Saved embeddings for {file.name} using model {name}", flush=True)
+    del model  # free it before the next model is loaded
+    if device == "mps":
+        torch.mps.empty_cache()
 
 
 # %%
 # 3. Named entities, with the same model for every text
-from transformers import pipeline
+# impresso-project/ner-hipe2020-mmbert-base-final needs transformers >= 5, which would break
+# sentence-transformers 4.1 here; so we use Impresso's earlier multilingual NER model.
+# It only reads 512 tokens at a time, so each installment goes in as ~1000-character pieces.
+# Names are kept as written (no Pierre <-> Peter mapping): the realistic case.
+from transformers import AutoTokenizer, pipeline
 
-ner = pipeline("impresso-ner", model="impresso-project/ner-hipe2020-mmbert-base-final",
-               revision="impresso-ner-v1", trust_remote_code=True)
+NER_MODEL = "impresso-project/ner-stacked-bert-multilingual"
+ner = pipeline("generic-ner", model=NER_MODEL, tokenizer=AutoTokenizer.from_pretrained(NER_MODEL),
+               trust_remote_code=True, device="cpu")
+
+
+def text_pieces(text, max_chars=1000):
+    """Pieces under max_chars, cut at sentence ends, with their start offset in the text."""
+    out, start, cur = [], 0, ""
+    for m in re.finditer(r"[^.!?…]+[.!?…]*\s*", text):
+        if cur and len(cur) + len(m.group()) > max_chars:
+            out.append((start, cur))
+            start, cur = m.start(), ""
+        cur += m.group()
+    return out + [(start, cur)] if cur else out
 
 
 def get_NER(text):
-    return ner(text, split_sentences=True)
+    entities = []
+    for offset, piece in text_pieces(text):
+        for e in ner(piece):
+            entities.append({**e, "lOffset": e["lOffset"] + offset, "rOffset": e["rOffset"] + offset})
+    return entities
 
 
-for file in [de_file, fr_file] + tr_files:
+for file in [de_file, fr_file]:  # the two originals; the translations are not needed for DE <-> FR
     out = ner_output / f"{file.stem}.jsonl"
     if out.exists() or not file.exists():
         continue
     records = read_jsonl(file)
     write_jsonl(out, [{**meta(r), "entities": get_NER(r["text"])} for r in records])
-    print(f"Saved NER for {file.name}")
+    print(f"Saved NER for {file.name}", flush=True)
 
 
 # %%
 # Within-language comparisons (cells 4 and 5): each pair is in one language,
 # so word-level features (MFW, passim n-grams) can compare them directly.
+# The feature code itself is in textfeatures.py (shared with compare_features.py).
+from textfeatures import mfw_z, passim_matrix
+
 SAME_LANGUAGE = [(de_file, tr_files[0]),   # real German vs Google's German
                  (fr_file, tr_files[1])]   # French original vs FR->EN->FR round trip
-
-
-def words(text):
-    return re.findall(r"[^\W\d_]+", text.lower())
 
 
 # %%
@@ -182,24 +210,12 @@ for a, b in SAME_LANGUAGE:
     if not b.exists():
         print(f"skipping MFW for {a.name}: {b.name} not made yet (cell 1)")
         continue
-    texts = {a.stem: read_jsonl(a), b.stem: read_jsonl(b)}
-    counts = {stem: [Counter(words(r["text"])) for r in recs] for stem, recs in texts.items()}
-
-    # the word list comes from both texts together, so both get the same 100 words
-    total = sum((c for cs in counts.values() for c in cs), Counter())
-    mfw = [w for w, _ in total.most_common(N_MFW)]
+    recs = {a.stem: read_jsonl(a), b.stem: read_jsonl(b)}
+    z_a, z_b, mfw = mfw_z([r["text"] for r in recs[a.stem]], [r["text"] for r in recs[b.stem]], N_MFW)
     mfw_lists[f"{a.stem}__{b.stem}"] = mfw
-
-    # relative frequency per installment, then z-score each word over all installments of the pair
-    freqs = {stem: np.array([[c[w] / max(sum(c.values()), 1) for w in mfw] for c in cs])
-             for stem, cs in counts.items()}
-    stacked = np.vstack(list(freqs.values()))
-    mean, std = stacked.mean(axis=0), stacked.std(axis=0)
-
-    for stem, recs in texts.items():
-        z = (freqs[stem] - mean) / std
+    for stem, z in [(a.stem, z_a), (b.stem, z_b)]:
         write_jsonl(mfw_output / f"{a.stem}__{b.stem}__{stem}.jsonl",
-                    [{**meta(r), "mfw_z": v.tolist()} for r, v in zip(recs, z)])
+                    [{**meta(r), "mfw_z": v.tolist()} for r, v in zip(recs[stem], z)])
     print(f"Saved {N_MFW} MFW z-scores for {a.stem} vs {b.stem}; top 10: {mfw[:10]}")
 
 (mfw_output / "mfw_words.json").write_text(json.dumps(mfw_lists, ensure_ascii=False, indent=1))
@@ -207,38 +223,21 @@ for a, b in SAME_LANGUAGE:
 
 # %%
 # 5. passim-style text reuse score, per language pair
-# This is passim's first step (shared rare word n-grams), done in plain Python;
-# passim itself needs Java + Spark and then also aligns the passages (Smith-Waterman),
-# which we skip. Score of installment x against y = share of x's rare n-grams that also occur in y.
+# Score of installment x against y = share of x's rare 5-grams that also occur in y.
 N_GRAM = 5    # passim's default n-gram length
 MAX_DF = 5    # drop n-grams found in more than 5 installments (headers, set phrases)
 
 passim_output = features / "passim"
 passim_output.mkdir(exist_ok=True)
 
-
-def ngrams(text, n=N_GRAM):
-    w = words(text)
-    return {tuple(w[i:i + n]) for i in range(len(w) - n + 1)}
-
-
 for a, b in SAME_LANGUAGE:
     if not b.exists():
         print(f"skipping passim for {a.name}: {b.name} not made yet (cell 1)")
         continue
     recs_a, recs_b = read_jsonl(a), read_jsonl(b)
-    grams_a = [ngrams(r["text"]) for r in recs_a]
-    grams_b = [ngrams(r["text"]) for r in recs_b]
-
-    df = Counter(g for gs in grams_a + grams_b for g in gs)
-    rare = lambda gs: {g for g in gs if df[g] <= MAX_DF}
-    grams_a, grams_b = [rare(g) for g in grams_a], [rare(g) for g in grams_b]
-
-    out = []
-    for r, ga in zip(recs_a, grams_a):
-        scores = {rb["id"]: round(len(ga & gb) / len(ga), 4)
-                  for rb, gb in zip(recs_b, grams_b) if ga and ga & gb}
-        out.append({**meta(r), "n_rare_ngrams": len(ga), "scores": scores})
+    sim = passim_matrix([r["text"] for r in recs_a], [r["text"] for r in recs_b], N_GRAM, MAX_DF)
+    out = [{**meta(r), "scores": {rb["id"]: round(float(v), 4) for rb, v in zip(recs_b, row) if v > 0}}
+           for r, row in zip(recs_a, sim)]
     write_jsonl(passim_output / f"{a.stem}__{b.stem}.jsonl", out)
     print(f"Saved passim-style scores for {a.stem} vs {b.stem} "
           f"({sum(bool(o['scores']) for o in out)}/{len(out)} installments share any rare {N_GRAM}-gram)")
