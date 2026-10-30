@@ -11,6 +11,8 @@
 #   secret_du_titan/reocr/<id>/text.txt               the new OCR text
 #   secret_du_titan/fr.jsonl, fr.txt                  updated in place:
 #       every record gets "ocr_source": "impresso" or "tesseract"
+#       (later replaced by PERO for these 14: "ocr_source": "pero", see reocr/PERO_readme.md,
+#        with the Tesseract text kept in "tesseract_text")
 #       re-OCR'd records keep the old text in "impresso_text"
 #
 # Needs: brew install tesseract + fra.traineddata in the tessdata folder.
@@ -70,7 +72,7 @@ for item_id in (DATA / "missing_fr_ids.txt").read_text().split():
 records.sort(key=lambda r: (r["date"], r["id"]))
 
 for rec in records:
-    if rec.get("ocr_source") == "tesseract":
+    if rec.get("ocr_source") in ("tesseract", "pero"):
         continue
     rec["ocr_source"] = "impresso"
     if len(rec["text"]) >= BROKEN_MAX_CHARS:
