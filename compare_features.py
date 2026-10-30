@@ -15,17 +15,18 @@
 #    from 0% to 30% of characters changed.
 #
 # MFW and passim only compare texts in the same language; embeddings compare any pair.
+# NER (names as written, TF-IDF) is only extracted for the two originals, fr and de.
 import json
 from pathlib import Path
 
 import numpy as np
 
-from textfeatures import cosine_matrix, mfw_z, passim_matrix, score
+from textfeatures import align_in_order, combine, cosine_matrix, mfw_z, name_bag, passim_matrix, score, tfidf_cosine
 
 CWD = Path(__file__).parent
 data = CWD / "secret_du_titan"
 features = data / "features"
-MODELS = ["histlux-gte-multilingual-base", "OCR-diversely-robust-gte-multilingual-base"]
+MODELS = ["histlux-gte-multilingual-base"]  # the OCR-robust model was not run (time)
 SAME_LANGUAGE = {("fr", "fr_en_fr"), ("de", "fr_de")} | {("fr", p.stem) for p in (features / "corrupted").glob("*.jsonl")}
 
 
@@ -62,6 +63,15 @@ def similarity_matrices(a, b):
         sim = embedding_matrix(a, b, model)
         if sim is not None:
             sims["GTE " + ("histlux" if model.startswith("histlux") else "OCR-robust")] = sim
+    ner_a, ner_b = features / "ner" / f"{a}.jsonl", features / "ner" / f"{b}.jsonl"
+    if ner_a.exists() and ner_b.exists():
+        ents_a = [r["entities"] for r in read_jsonl(ner_a)]
+        ents_b = [r["entities"] for r in read_jsonl(ner_b)]
+        for unit in ["full names", "name words"]:
+            sims[f"NER ({unit})"] = tfidf_cosine([name_bag(e, unit) for e in ents_a],
+                                                 [name_bag(e, unit) for e in ents_b])
+    if "GTE histlux" in sims and "NER (name words)" in sims:
+        sims["GTE + NER"] = combine(sims["GTE histlux"], sims["NER (name words)"])
     return sims
 
 
@@ -89,12 +99,20 @@ for a, b, answer in PAIRS:
     tolerance = 0 if answer == "known" else 1
     for feature, sim in similarity_matrices(a, b).items():
         comparison.append({"pair": f"{a} vs {b}", "answer": answer, "feature": feature,
-                           **score(sim, expected, tolerance)})
+                           **score(sim, expected, tolerance),
+                           # kept for plotting the mapping: each installment's expected and best match
+                           "expected": expected.tolist(), "best": sim.argmax(axis=1).tolist(),
+                           "n_candidates": sim.shape[1]})
+        if answer == "position":  # the same similarities, with the matches forced to stay in order
+            path = align_in_order(sim)
+            comparison.append({"pair": f"{a} vs {b}", "answer": answer, "feature": f"{feature} (in order)",
+                               **score(sim, expected, tolerance, best=path),
+                               "expected": expected.tolist(), "best": path, "n_candidates": sim.shape[1]})
 
-print(f"{'pair':16s} {'feature':16s} {'progression':>11s} {'top-1':>6s} {'chance':>7s} {'med.rank':>9s}")
+print(f"{'pair':16s} {'feature':28s} {'progression':>11s} {'top-1':>6s} {'chance':>7s} {'med.error':>10s}")
 for r in comparison:
-    print(f"{r['pair']:16s} {r['feature']:16s} {r['progression']:11.2f} {r['top1']:6.2f} "
-          f"{r['chance_top1']:7.3f} {r['median_rank']:9.1f}")
+    print(f"{r['pair']:16s} {r['feature']:28s} {r['progression']:11.2f} {r['top1']:6.2f} "
+          f"{r['chance_top1']:7.3f} {r['median_error']:10.1f}")
 (features / "comparison.json").write_text(json.dumps(comparison, indent=1))
 
 
@@ -117,3 +135,21 @@ for measure in ["progression", "separation"]:
         q = next(r["ocrqa"] for r in robustness if r["noise"] == rate)
         print(f"{rate:6.3f} {q:6.3f}  " + "  ".join(f"{row.get(f, float('nan')):16.2f}" for f in names))
 (features / "robustness.json").write_text(json.dumps(robustness, indent=1))
+
+
+# %%
+# 3. The German -> French mapping, one row per German installment
+import csv
+
+de, fr = read_jsonl(find("de")), read_jsonl(find("fr"))
+rows = {r["feature"]: r for r in comparison if r["pair"] == "de vs fr"}
+with (features / "mapping_de_fr.csv").open("w", newline="") as f:
+    w = csv.writer(f)
+    w.writerow(["de_id", "de_date", "fr_gte_ner_in_order", "fr_gte_ner_date", "fr_gte_in_order", "fr_gte_date",
+                "fr_by_position", "fr_by_position_date", "fr_ocr_source"])
+    for i, rec in enumerate(de):
+        a = fr[rows["GTE + NER (in order)"]["best"][i]]
+        b = fr[rows["GTE histlux (in order)"]["best"][i]]
+        c = fr[rows["GTE histlux"]["expected"][i]]
+        w.writerow([rec["id"], rec["date"], a["id"], a["date"], b["id"], b["date"], c["id"], c["date"], a["ocr_source"]])
+print("saved mapping_de_fr.csv")

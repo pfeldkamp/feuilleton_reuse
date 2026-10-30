@@ -163,7 +163,7 @@ ner = pipeline("generic-ner", model=NER_MODEL, tokenizer=AutoTokenizer.from_pret
                trust_remote_code=True, device="cpu")
 
 
-def text_pieces(text, max_chars=1000):
+def text_pieces(text, max_chars=600):
     """Pieces under max_chars, cut at sentence ends, with their start offset in the text."""
     out, start, cur = [], 0, ""
     for m in re.finditer(r"[^.!?…]+[.!?…]*\s*", text):
@@ -174,21 +174,34 @@ def text_pieces(text, max_chars=1000):
     return out + [(start, cur)] if cur else out
 
 
+ner_skipped_chars = 0  # text the model could not process even in small pieces
+
+
+def ner_piece(piece, offset):
+    """NER on one piece; the model's own code crashes on some noisy pieces, so split and retry."""
+    global ner_skipped_chars
+    try:
+        return [{**e, "lOffset": e["lOffset"] + offset, "rOffset": e["rOffset"] + offset} for e in ner(piece)]
+    except ValueError:
+        if len(piece) < 150:
+            ner_skipped_chars += len(piece)
+            return []
+        half = piece.rfind(" ", 0, len(piece) // 2) + 1 or len(piece) // 2
+        return ner_piece(piece[:half], offset) + ner_piece(piece[half:], offset + half)
+
+
 def get_NER(text):
-    entities = []
-    for offset, piece in text_pieces(text):
-        for e in ner(piece):
-            entities.append({**e, "lOffset": e["lOffset"] + offset, "rOffset": e["rOffset"] + offset})
-    return entities
+    return [e for offset, piece in text_pieces(text) for e in ner_piece(piece, offset)]
 
 
-for file in [de_file, fr_file]:  # the two originals; the translations are not needed for DE <-> FR
+# the two originals (German <-> French), and the corrupted round trips (noise test)
+for file in [de_file, fr_file] + sorted((features / "corrupted").glob("fr_en_fr_noise*.jsonl")):
     out = ner_output / f"{file.stem}.jsonl"
     if out.exists() or not file.exists():
         continue
     records = read_jsonl(file)
     write_jsonl(out, [{**meta(r), "entities": get_NER(r["text"])} for r in records])
-    print(f"Saved NER for {file.name}", flush=True)
+    print(f"Saved NER for {file.name} (skipped so far: {ner_skipped_chars} characters)", flush=True)
 
 
 # %%
