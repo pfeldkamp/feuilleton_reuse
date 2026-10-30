@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>r04</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-10-29T16:14:00.104125</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_r04" PHYSICAL_IMG_NR="1" HEIGHT="207" WIDTH="1100">
+      <TopMargin HEIGHT="8" WIDTH="1100" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="207" WIDTH="270" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="207" WIDTH="0" VPOS="0" HPOS="1100"/>
+      <BottomMargin HEIGHT="0" WIDTH="1100" VPOS="207" HPOS="0"/>
+      <PrintSpace HEIGHT="198" WIDTH="829" VPOS="8" HPOS="270">
+        <TextBlock ID="block_r001" HEIGHT="61" WIDTH="40" VPOS="8" HPOS="543">
+          <TextLine BASELINE="53" VPOS="8" HPOS="543" HEIGHT="61" WIDTH="40">
+            <String CONTENT="V" HEIGHT="61" WIDTH="21" VPOS="7" HPOS="543" WC="1"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r000" HEIGHT="60" WIDTH="579" VPOS="111" HPOS="270">
+          <TextLine BASELINE="152" VPOS="111" HPOS="270" HEIGHT="60" WIDTH="579">
+            <String CONTENT="Le" HEIGHT="54" WIDTH="52" VPOS="110" HPOS="283" WC="1"/>
+            <SP WIDTH="4" VPOS="110" HPOS="335"/>
+            <String CONTENT="Garçon" HEIGHT="55" WIDTH="147" VPOS="111" HPOS="379" WC="1"/>
+            <SP WIDTH="4" VPOS="111" HPOS="526"/>
+            <String CONTENT="de" HEIGHT="54" WIDTH="48" VPOS="112" HPOS="573" WC="1"/>
+            <SP WIDTH="4" VPOS="112" HPOS="622"/>
+            <String CONTENT="recettes" HEIGHT="56" WIDTH="174" VPOS="113" HPOS="655" WC="1"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>r04</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-10-29T16:16:03.945098</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_r04" PHYSICAL_IMG_NR="1" HEIGHT="250" WIDTH="1075">
+      <TopMargin HEIGHT="79" WIDTH="1075" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="250" WIDTH="375" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="250" WIDTH="0" VPOS="0" HPOS="1075"/>
+      <BottomMargin HEIGHT="0" WIDTH="1075" VPOS="250" HPOS="0"/>
+      <PrintSpace HEIGHT="170" WIDTH="699" VPOS="79" HPOS="375">
+        <TextBlock ID="block_r001" HEIGHT="59" WIDTH="123" VPOS="79" HPOS="470">
+          <TextLine BASELINE="123" VPOS="79" HPOS="470" HEIGHT="59" WIDTH="123">
+            <String CONTENT="XIX" HEIGHT="59" WIDTH="79" VPOS="78" HPOS="485" WC="1"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r000" HEIGHT="59" WIDTH="312" VPOS="179" HPOS="375">
+          <TextLine BASELINE="223" VPOS="179" HPOS="375" HEIGHT="59" WIDTH="312">
+            <String CONTENT="L'ARRIVEE" HEIGHT="58" WIDTH="278" VPOS="180" HPOS="384" WC="1.0"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

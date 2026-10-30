@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>r06</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-10-29T16:17:10.530299</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_r06" PHYSICAL_IMG_NR="1" HEIGHT="215" WIDTH="1016">
+      <TopMargin HEIGHT="38" WIDTH="1016" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="215" WIDTH="168" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="215" WIDTH="0" VPOS="0" HPOS="1016"/>
+      <BottomMargin HEIGHT="0" WIDTH="1016" VPOS="215" HPOS="0"/>
+      <PrintSpace HEIGHT="176" WIDTH="847" VPOS="38" HPOS="168">
+        <TextBlock ID="block_r001" HEIGHT="55" WIDTH="168" VPOS="38" HPOS="397">
+          <TextLine BASELINE="80" VPOS="38" HPOS="397" HEIGHT="55" WIDTH="168">
+            <String CONTENT="XXIV" HEIGHT="55" WIDTH="127" VPOS="38" HPOS="418" WC="1"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r000" HEIGHT="58" WIDTH="635" VPOS="138" HPOS="168">
+          <TextLine BASELINE="181" VPOS="138" HPOS="168" HEIGHT="58" WIDTH="635">
+            <String CONTENT="LE" HEIGHT="55" WIDTH="52" VPOS="140" HPOS="177" WC="1"/>
+            <SP WIDTH="4" VPOS="140" HPOS="230"/>
+            <String CONTENT="PERE" HEIGHT="55" WIDTH="118" VPOS="140" HPOS="278" WC="1"/>
+            <SP WIDTH="4" VPOS="140" HPOS="396"/>
+            <String CONTENT="ET" HEIGHT="54" WIDTH="62" VPOS="139" HPOS="437" WC="1"/>
+            <SP WIDTH="4" VPOS="139" HPOS="500"/>
+            <String CONTENT="LA" HEIGHT="54" WIDTH="52" VPOS="139" HPOS="538" WC="1"/>
+            <SP WIDTH="4" VPOS="139" HPOS="590"/>
+            <String CONTENT="FILLE" HEIGHT="54" WIDTH="142" VPOS="139" HPOS="631" WC="1"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

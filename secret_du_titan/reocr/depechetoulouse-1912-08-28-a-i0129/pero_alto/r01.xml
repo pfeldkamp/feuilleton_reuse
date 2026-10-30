@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>r01</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-10-29T16:16:57.893669</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_r01" PHYSICAL_IMG_NR="1" HEIGHT="580" WIDTH="1108">
+      <TopMargin HEIGHT="-43" WIDTH="1108" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="580" WIDTH="16" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="580" WIDTH="0" VPOS="0" HPOS="1108"/>
+      <BottomMargin HEIGHT="0" WIDTH="1108" VPOS="580" HPOS="0"/>
+      <PrintSpace HEIGHT="623" WIDTH="1092" VPOS="-43" HPOS="16">
+        <TextBlock ID="block_r000" HEIGHT="120" WIDTH="168" VPOS="-43" HPOS="16">
+          <TextLine BASELINE="48" VPOS="-43" HPOS="16" HEIGHT="120" WIDTH="168">
+            <String CONTENT="N." HEIGHT="120" WIDTH="104" VPOS="-43" HPOS="23" WC="1.0"/>
+            <SP WIDTH="4" VPOS="-43" HPOS="127"/>
+            <String CONTENT="54" HEIGHT="120" WIDTH="80" VPOS="-43" HPOS="103" WC="1.0"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r003" HEIGHT="92" WIDTH="216" VPOS="-5" HPOS="456">
+          <TextLine BASELINE="64" VPOS="-5" HPOS="456" HEIGHT="92" WIDTH="216">
+            <String CONTENT="28" HEIGHT="92" WIDTH="47" VPOS="-5" HPOS="473" WC="1.0"/>
+            <SP WIDTH="4" VPOS="-5" HPOS="521"/>
+            <String CONTENT="Août" HEIGHT="92" WIDTH="131" VPOS="-5" HPOS="539" WC="1.0"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r001" HEIGHT="341" WIDTH="1072" VPOS="122" HPOS="16">
+          <TextLine BASELINE="248" VPOS="122" HPOS="16" HEIGHT="162" WIDTH="976">
+            <String CONTENT="Le" HEIGHT="163" WIDTH="207" VPOS="121" HPOS="57" WC="1"/>
+            <SP WIDTH="4" VPOS="121" HPOS="265"/>
+            <String CONTENT="Secret" HEIGHT="163" WIDTH="591" VPOS="121" HPOS="379" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="428" VPOS="288" HPOS="197" HEIGHT="175" WIDTH="890">
+            <String CONTENT="du" HEIGHT="166" WIDTH="193" VPOS="290" HPOS="238" WC="1"/>
+            <SP WIDTH="4" VPOS="290" HPOS="432"/>
+            <String CONTENT="Titan" HEIGHT="162" WIDTH="440" VPOS="301" HPOS="602" WC="1"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r002" HEIGHT="104" WIDTH="1000" VPOS="468" HPOS="63">
+          <TextLine BASELINE="547" VPOS="468" HPOS="63" HEIGHT="104" WIDTH="1000">
+            <String CONTENT="Par" HEIGHT="96" WIDTH="122" VPOS="469" HPOS="81" WC="1"/>
+            <SP WIDTH="4" VPOS="469" HPOS="204"/>
+            <String CONTENT="Xavier" HEIGHT="96" WIDTH="219" VPOS="469" HPOS="227" WC="1"/>
+            <SP WIDTH="4" VPOS="469" HPOS="446"/>
+            <String CONTENT="de" HEIGHT="96" WIDTH="73" VPOS="469" HPOS="469" WC="1"/>
+            <SP WIDTH="4" VPOS="469" HPOS="542"/>
+            <String CONTENT="MONTÉPIN" HEIGHT="101" WIDTH="442" VPOS="470" HPOS="578" WC="1"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

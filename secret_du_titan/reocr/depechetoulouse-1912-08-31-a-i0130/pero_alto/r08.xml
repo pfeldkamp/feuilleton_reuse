@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>r08</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-10-29T16:17:38.806952</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_r08" PHYSICAL_IMG_NR="1" HEIGHT="165" WIDTH="1087">
+      <TopMargin HEIGHT="22" WIDTH="1087" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="165" WIDTH="140" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="165" WIDTH="0" VPOS="0" HPOS="1087"/>
+      <BottomMargin HEIGHT="0" WIDTH="1087" VPOS="165" HPOS="0"/>
+      <PrintSpace HEIGHT="142" WIDTH="946" VPOS="22" HPOS="140">
+        <TextBlock ID="block_r001" HEIGHT="46" WIDTH="154" VPOS="22" HPOS="430">
+          <TextLine BASELINE="57" VPOS="22" HPOS="430" HEIGHT="46" WIDTH="154">
+            <String CONTENT="XXVI" HEIGHT="46" WIDTH="129" VPOS="21" HPOS="442" WC="1.0"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r000" HEIGHT="63" WIDTH="731" VPOS="95" HPOS="140">
+          <TextLine BASELINE="140" VPOS="95" HPOS="140" HEIGHT="63" WIDTH="731">
+            <String CONTENT="UNE" HEIGHT="52" WIDTH="87" VPOS="95" HPOS="150" WC="1"/>
+            <SP WIDTH="4" VPOS="95" HPOS="237"/>
+            <String CONTENT="SITUATION" HEIGHT="55" WIDTH="262" VPOS="98" HPOS="290" WC="1"/>
+            <SP WIDTH="4" VPOS="98" HPOS="553"/>
+            <String CONTENT="DIFFICILE" HEIGHT="55" WIDTH="246" VPOS="103" HPOS="603" WC="1"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

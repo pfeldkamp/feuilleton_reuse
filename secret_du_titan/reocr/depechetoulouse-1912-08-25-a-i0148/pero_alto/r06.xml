@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>r06</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-10-29T16:16:27.630748</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_r06" PHYSICAL_IMG_NR="1" HEIGHT="174" WIDTH="1052">
+      <TopMargin HEIGHT="20" WIDTH="1052" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="174" WIDTH="221" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="174" WIDTH="0" VPOS="0" HPOS="1052"/>
+      <BottomMargin HEIGHT="0" WIDTH="1052" VPOS="174" HPOS="0"/>
+      <PrintSpace HEIGHT="153" WIDTH="830" VPOS="20" HPOS="221">
+        <TextBlock ID="block_r000" HEIGHT="150" WIDTH="588" VPOS="20" HPOS="221">
+          <TextLine BASELINE="63" VPOS="20" HPOS="450" HEIGHT="58" WIDTH="140">
+            <String CONTENT="XXII" HEIGHT="58" WIDTH="109" VPOS="20" HPOS="465" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="158" VPOS="114" HPOS="221" HEIGHT="56" WIDTH="588">
+            <String CONTENT="LE" HEIGHT="52" WIDTH="49" VPOS="117" HPOS="234" WC="1"/>
+            <SP WIDTH="4" VPOS="117" HPOS="284"/>
+            <String CONTENT="LIVRE" HEIGHT="52" WIDTH="145" VPOS="117" HPOS="330" WC="1"/>
+            <SP WIDTH="4" VPOS="117" HPOS="476"/>
+            <String CONTENT="DE" HEIGHT="52" WIDTH="56" VPOS="117" HPOS="516" WC="1"/>
+            <SP WIDTH="4" VPOS="117" HPOS="572"/>
+            <String CONTENT="CAISSE" HEIGHT="53" WIDTH="162" VPOS="117" HPOS="622" WC="1"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

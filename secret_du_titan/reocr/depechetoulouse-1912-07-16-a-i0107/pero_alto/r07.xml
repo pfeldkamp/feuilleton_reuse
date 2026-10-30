@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>r07</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-10-29T16:13:51.129988</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_r07" PHYSICAL_IMG_NR="1" HEIGHT="143" WIDTH="1070">
+      <TopMargin HEIGHT="16" WIDTH="1070" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="143" WIDTH="292" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="143" WIDTH="0" VPOS="0" HPOS="1070"/>
+      <BottomMargin HEIGHT="0" WIDTH="1070" VPOS="143" HPOS="0"/>
+      <PrintSpace HEIGHT="126" WIDTH="777" VPOS="16" HPOS="292">
+        <TextBlock ID="block_r000" HEIGHT="33" WIDTH="131" VPOS="108" HPOS="292">
+          <TextLine BASELINE="133" VPOS="108" HPOS="292" HEIGHT="33" WIDTH="131">
+            <String CONTENT="Gto" HEIGHT="33" WIDTH="107" VPOS="107" HPOS="300" WC="0.41"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r001" HEIGHT="126" WIDTH="321" VPOS="16" HPOS="434">
+          <TextLine BASELINE="51" VPOS="16" HPOS="478" HEIGHT="47" WIDTH="82">
+            <String CONTENT="IV" HEIGHT="46" WIDTH="46" VPOS="16" HPOS="489" WC="0.55"/>
+          </TextLine>
+          <TextLine BASELINE="133" VPOS="101" HPOS="434" HEIGHT="41" WIDTH="321">
+            <String CONTENT="du" HEIGHT="38" WIDTH="36" VPOS="104" HPOS="444" WC="0.99"/>
+            <SP WIDTH="4" VPOS="104" HPOS="480"/>
+            <String CONTENT="precedení" HEIGHT="41" WIDTH="219" VPOS="101" HPOS="526" WC="1.0"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

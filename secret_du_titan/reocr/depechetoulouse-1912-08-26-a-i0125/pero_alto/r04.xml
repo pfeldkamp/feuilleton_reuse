@@ -1,0 +1,665 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>r04</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-10-29T16:16:47.342314</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_r04" PHYSICAL_IMG_NR="1" HEIGHT="2236" WIDTH="1045">
+      <TopMargin HEIGHT="15" WIDTH="1045" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="2236" WIDTH="-5" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="2236" WIDTH="-2" VPOS="0" HPOS="1047"/>
+      <BottomMargin HEIGHT="0" WIDTH="1045" VPOS="2236" HPOS="0"/>
+      <PrintSpace HEIGHT="2220" WIDTH="1052" VPOS="15" HPOS="-5">
+        <TextBlock ID="block_r000" HEIGHT="2204" WIDTH="1052" VPOS="15" HPOS="-5">
+          <TextLine BASELINE="58" VPOS="15" HPOS="-5" HEIGHT="60" WIDTH="1046">
+            <String CONTENT="de" HEIGHT="51" WIDTH="41" VPOS="13" HPOS="13" WC="1"/>
+            <SP WIDTH="4" VPOS="13" HPOS="54"/>
+            <String CONTENT="volonté" HEIGHT="53" WIDTH="164" VPOS="15" HPOS="83" WC="1"/>
+            <SP WIDTH="4" VPOS="15" HPOS="247"/>
+            <String CONTENT="et" HEIGHT="50" WIDTH="37" VPOS="18" HPOS="275" WC="1"/>
+            <SP WIDTH="4" VPOS="18" HPOS="313"/>
+            <String CONTENT="d'énergie" HEIGHT="52" WIDTH="198" VPOS="19" HPOS="341" WC="1"/>
+            <SP WIDTH="4" VPOS="19" HPOS="540"/>
+            <String CONTENT="pour" HEIGHT="50" WIDTH="104" VPOS="22" HPOS="568" WC="1"/>
+            <SP WIDTH="4" VPOS="22" HPOS="672"/>
+            <String CONTENT="se" HEIGHT="50" WIDTH="41" VPOS="23" HPOS="700" WC="1"/>
+            <SP WIDTH="4" VPOS="23" HPOS="742"/>
+            <String CONTENT="calmer" HEIGHT="50" WIDTH="148" VPOS="23" HPOS="776" WC="1"/>
+            <SP WIDTH="4" VPOS="23" HPOS="924"/>
+            <String CONTENT="sou-" HEIGHT="50" WIDTH="89" VPOS="24" HPOS="952" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="101" VPOS="62" HPOS="-5" HEIGHT="54" WIDTH="276">
+            <String CONTENT="damnement." HEIGHT="53" WIDTH="257" VPOS="62" HPOS="13" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="151" VPOS="107" HPOS="41" HEIGHT="62" WIDTH="1004">
+            <String CONTENT="—" HEIGHT="49" WIDTH="15" VPOS="107" HPOS="59" WC="1"/>
+            <SP WIDTH="4" VPOS="107" HPOS="75"/>
+            <String CONTENT="L'homme" HEIGHT="52" WIDTH="210" VPOS="108" HPOS="124" WC="1"/>
+            <SP WIDTH="4" VPOS="108" HPOS="334"/>
+            <String CONTENT="en" HEIGHT="49" WIDTH="37" VPOS="112" HPOS="364" WC="1"/>
+            <SP WIDTH="4" VPOS="112" HPOS="402"/>
+            <String CONTENT="colère" HEIGHT="50" WIDTH="133" VPOS="113" HPOS="438" WC="1"/>
+            <SP WIDTH="4" VPOS="113" HPOS="571"/>
+            <String CONTENT="ressemble" HEIGHT="51" WIDTH="222" VPOS="115" HPOS="598" WC="1"/>
+            <SP WIDTH="4" VPOS="115" HPOS="821"/>
+            <String CONTENT="à" HEIGHT="49" WIDTH="19" VPOS="118" HPOS="848" WC="1"/>
+            <SP WIDTH="4" VPOS="118" HPOS="867"/>
+            <String CONTENT="l'hom-" HEIGHT="50" WIDTH="148" VPOS="118" HPOS="897" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="197" VPOS="155" HPOS="-5" HEIGHT="60" WIDTH="1051">
+            <String CONTENT="me" HEIGHT="48" WIDTH="66" VPOS="155" HPOS="6" WC="1"/>
+            <SP WIDTH="4" VPOS="155" HPOS="73"/>
+            <String CONTENT="ivre" HEIGHT="48" WIDTH="87" VPOS="156" HPOS="99" WC="1"/>
+            <SP WIDTH="4" VPOS="156" HPOS="187"/>
+            <String CONTENT="!" HEIGHT="47" WIDTH="18" VPOS="158" HPOS="213" WC="1"/>
+            <SP WIDTH="4" VPOS="158" HPOS="231"/>
+            <String CONTENT="—" HEIGHT="47" WIDTH="15" VPOS="158" HPOS="258" WC="1"/>
+            <SP WIDTH="4" VPOS="158" HPOS="273"/>
+            <String CONTENT="s'était-il" HEIGHT="49" WIDTH="180" VPOS="159" HPOS="324" WC="1"/>
+            <SP WIDTH="4" VPOS="159" HPOS="504"/>
+            <String CONTENT="dit," HEIGHT="48" WIDTH="75" VPOS="162" HPOS="533" WC="1"/>
+            <SP WIDTH="4" VPOS="162" HPOS="609"/>
+            <String CONTENT="—" HEIGHT="47" WIDTH="15" VPOS="163" HPOS="635" WC="1"/>
+            <SP WIDTH="4" VPOS="163" HPOS="651"/>
+            <String CONTENT="il" HEIGHT="48" WIDTH="33" VPOS="164" HPOS="701" WC="1"/>
+            <SP WIDTH="4" VPOS="164" HPOS="735"/>
+            <String CONTENT="n'est" HEIGHT="48" WIDTH="102" VPOS="164" HPOS="761" WC="1"/>
+            <SP WIDTH="4" VPOS="164" HPOS="863"/>
+            <String CONTENT="maltre" HEIGHT="49" WIDTH="147" VPOS="166" HPOS="893" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="243" VPOS="202" HPOS="-5" HEIGHT="57" WIDTH="1051">
+            <String CONTENT="ni" HEIGHT="48" WIDTH="44" VPOS="202" HPOS="6" WC="1"/>
+            <SP WIDTH="4" VPOS="202" HPOS="51"/>
+            <String CONTENT="de" HEIGHT="48" WIDTH="41" VPOS="203" HPOS="93" WC="1"/>
+            <SP WIDTH="4" VPOS="203" HPOS="135"/>
+            <String CONTENT="lui-même," HEIGHT="50" WIDTH="235" VPOS="204" HPOS="170" WC="1"/>
+            <SP WIDTH="4" VPOS="204" HPOS="406"/>
+            <String CONTENT="ni" HEIGHT="47" WIDTH="45" VPOS="208" HPOS="435" WC="1"/>
+            <SP WIDTH="4" VPOS="208" HPOS="480"/>
+            <String CONTENT="des" HEIGHT="47" WIDTH="66" VPOS="208" HPOS="521" WC="1"/>
+            <SP WIDTH="4" VPOS="208" HPOS="587"/>
+            <String CONTENT="autres" HEIGHT="48" WIDTH="137" VPOS="209" HPOS="631" WC="1"/>
+            <SP WIDTH="4" VPOS="209" HPOS="769"/>
+            <String CONTENT="!..." HEIGHT="47" WIDTH="69" VPOS="210" HPOS="795" WC="1"/>
+            <SP WIDTH="4" VPOS="210" HPOS="864"/>
+            <String CONTENT="—" HEIGHT="47" WIDTH="15" VPOS="210" HPOS="899" WC="1"/>
+            <SP WIDTH="4" VPOS="210" HPOS="915"/>
+            <String CONTENT="Du" HEIGHT="47" WIDTH="51" VPOS="210" HPOS="980" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="290" VPOS="246" HPOS="-2" HEIGHT="63" WIDTH="1049">
+            <String CONTENT="calme" HEIGHT="50" WIDTH="126" VPOS="246" HPOS="15" WC="1"/>
+            <SP WIDTH="4" VPOS="246" HPOS="142"/>
+            <String CONTENT="!..." HEIGHT="48" WIDTH="69" VPOS="249" HPOS="168" WC="1"/>
+            <SP WIDTH="4" VPOS="249" HPOS="237"/>
+            <String CONTENT="du" HEIGHT="48" WIDTH="42" VPOS="251" HPOS="264" WC="1"/>
+            <SP WIDTH="4" VPOS="251" HPOS="306"/>
+            <String CONTENT="sang-froid" HEIGHT="50" WIDTH="225" VPOS="252" HPOS="348" WC="1"/>
+            <SP WIDTH="4" VPOS="252" HPOS="573"/>
+            <String CONTENT="!..." HEIGHT="48" WIDTH="69" VPOS="256" HPOS="599" WC="1"/>
+            <SP WIDTH="4" VPOS="256" HPOS="669"/>
+            <String CONTENT="—" HEIGHT="47" WIDTH="15" VPOS="257" HPOS="698" WC="1"/>
+            <SP WIDTH="4" VPOS="257" HPOS="714"/>
+            <String CONTENT="je" HEIGHT="48" WIDTH="42" VPOS="257" HPOS="758" WC="1"/>
+            <SP WIDTH="4" VPOS="257" HPOS="801"/>
+            <String CONTENT="n'en" HEIGHT="48" WIDTH="81" VPOS="258" HPOS="830" WC="1"/>
+            <SP WIDTH="4" VPOS="258" HPOS="911"/>
+            <String CONTENT="con-" HEIGHT="48" WIDTH="90" VPOS="259" HPOS="955" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="340" VPOS="297" HPOS="-5" HEIGHT="62" WIDTH="1051">
+            <String CONTENT="fondrai" HEIGHT="51" WIDTH="170" VPOS="296" HPOS="4" WC="1"/>
+            <SP WIDTH="4" VPOS="296" HPOS="174"/>
+            <String CONTENT="pas" HEIGHT="50" WIDTH="71" VPOS="299" HPOS="210" WC="1"/>
+            <SP WIDTH="4" VPOS="299" HPOS="282"/>
+            <String CONTENT="moins" HEIGHT="50" WIDTH="130" VPOS="300" HPOS="324" WC="1"/>
+            <SP WIDTH="4" VPOS="300" HPOS="454"/>
+            <String CONTENT="le" HEIGHT="49" WIDTH="37" VPOS="303" HPOS="491" WC="1"/>
+            <SP WIDTH="4" VPOS="303" HPOS="528"/>
+            <String CONTENT="misérable," HEIGHT="52" WIDTH="240" VPOS="304" HPOS="568" WC="1"/>
+            <SP WIDTH="4" VPOS="304" HPOS="809"/>
+            <String CONTENT="et" HEIGHT="49" WIDTH="37" VPOS="308" HPOS="839" WC="1"/>
+            <SP WIDTH="4" VPOS="308" HPOS="876"/>
+            <String CONTENT="je" HEIGHT="49" WIDTH="37" VPOS="309" HPOS="913" WC="1"/>
+            <SP WIDTH="4" VPOS="309" HPOS="950"/>
+            <String CONTENT="ne" HEIGHT="49" WIDTH="53" VPOS="310" HPOS="987" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="385" VPOS="346" HPOS="-5" HEIGHT="54" WIDTH="712">
+            <String CONTENT="len" HEIGHT="48" WIDTH="71" VPOS="345" HPOS="3" WC="1"/>
+            <SP WIDTH="4" VPOS="345" HPOS="75"/>
+            <String CONTENT="écraserai" HEIGHT="50" WIDTH="211" VPOS="347" HPOS="122" WC="1"/>
+            <SP WIDTH="4" VPOS="347" HPOS="333"/>
+            <String CONTENT="que" HEIGHT="47" WIDTH="74" VPOS="351" HPOS="365" WC="1"/>
+            <SP WIDTH="4" VPOS="351" HPOS="440"/>
+            <String CONTENT="mieux" HEIGHT="47" WIDTH="134" VPOS="352" HPOS="475" WC="1"/>
+            <SP WIDTH="4" VPOS="352" HPOS="609"/>
+            <String CONTENT="!.." HEIGHT="47" WIDTH="66" VPOS="353" HPOS="641" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="433" VPOS="392" HPOS="38" HEIGHT="58" WIDTH="1007">
+            <String CONTENT="En" HEIGHT="48" WIDTH="51" VPOS="392" HPOS="50" WC="1"/>
+            <SP WIDTH="4" VPOS="392" HPOS="102"/>
+            <String CONTENT="conséquence," HEIGHT="51" WIDTH="300" VPOS="393" HPOS="158" WC="1"/>
+            <SP WIDTH="4" VPOS="393" HPOS="458"/>
+            <String CONTENT="il" HEIGHT="48" WIDTH="33" VPOS="397" HPOS="488" WC="1"/>
+            <SP WIDTH="4" VPOS="397" HPOS="521"/>
+            <String CONTENT="avait" HEIGHT="48" WIDTH="111" VPOS="398" HPOS="557" WC="1"/>
+            <SP WIDTH="4" VPOS="398" HPOS="668"/>
+            <String CONTENT="ralenti" HEIGHT="48" WIDTH="150" VPOS="399" HPOS="707" WC="1"/>
+            <SP WIDTH="4" VPOS="399" HPOS="857"/>
+            <String CONTENT="le" HEIGHT="47" WIDTH="39" VPOS="400" HPOS="889" WC="1"/>
+            <SP WIDTH="4" VPOS="400" HPOS="929"/>
+            <String CONTENT="pas" HEIGHT="47" WIDTH="75" VPOS="401" HPOS="964" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="480" VPOS="436" HPOS="-5" HEIGHT="60" WIDTH="1051">
+            <String CONTENT="pour" HEIGHT="49" WIDTH="98" VPOS="438" HPOS="6" WC="1"/>
+            <SP WIDTH="4" VPOS="438" HPOS="105"/>
+            <String CONTENT="traverser" HEIGHT="50" WIDTH="212" VPOS="440" HPOS="138" WC="1"/>
+            <SP WIDTH="4" VPOS="440" HPOS="350"/>
+            <String CONTENT="la" HEIGHT="47" WIDTH="36" VPOS="443" HPOS="379" WC="1"/>
+            <SP WIDTH="4" VPOS="443" HPOS="416"/>
+            <String CONTENT="cour," HEIGHT="48" WIDTH="117" VPOS="444" HPOS="457" WC="1"/>
+            <SP WIDTH="4" VPOS="444" HPOS="574"/>
+            <String CONTENT="mais" HEIGHT="48" WIDTH="108" VPOS="446" HPOS="600" WC="1"/>
+            <SP WIDTH="4" VPOS="446" HPOS="709"/>
+            <String CONTENT="sa" HEIGHT="47" WIDTH="42" VPOS="447" HPOS="744" WC="1"/>
+            <SP WIDTH="4" VPOS="447" HPOS="786"/>
+            <String CONTENT="démarcne" HEIGHT="48" WIDTH="218" VPOS="447" HPOS="821" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="526" VPOS="483" HPOS="-5" HEIGHT="58" WIDTH="1051">
+            <String CONTENT="inégale," HEIGHT="51" WIDTH="183" VPOS="483" HPOS="3" WC="1"/>
+            <SP WIDTH="4" VPOS="483" HPOS="187"/>
+            <String CONTENT="son" HEIGHT="48" WIDTH="66" VPOS="487" HPOS="223" WC="1"/>
+            <SP WIDTH="4" VPOS="487" HPOS="289"/>
+            <String CONTENT="visage" HEIGHT="49" WIDTH="141" VPOS="489" HPOS="340" WC="1"/>
+            <SP WIDTH="4" VPOS="489" HPOS="481"/>
+            <String CONTENT="bouleversé," HEIGHT="49" WIDTH="267" VPOS="491" HPOS="523" WC="1"/>
+            <SP WIDTH="4" VPOS="491" HPOS="791"/>
+            <String CONTENT="ses" HEIGHT="47" WIDTH="63" VPOS="493" HPOS="826" WC="1"/>
+            <SP WIDTH="4" VPOS="493" HPOS="890"/>
+            <String CONTENT="veux" HEIGHT="47" WIDTH="97" VPOS="493" HPOS="937" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="573" VPOS="530" HPOS="-5" HEIGHT="63" WIDTH="1052">
+            <String CONTENT="étincelants," HEIGHT="50" WIDTH="268" VPOS="532" HPOS="3" WC="1"/>
+            <SP WIDTH="4" VPOS="532" HPOS="272"/>
+            <String CONTENT="laissaient" HEIGHT="50" WIDTH="220" VPOS="534" HPOS="310" WC="1"/>
+            <SP WIDTH="4" VPOS="534" HPOS="531"/>
+            <String CONTENT="deviner" HEIGHT="50" WIDTH="163" VPOS="537" HPOS="581" WC="1"/>
+            <SP WIDTH="4" VPOS="537" HPOS="745"/>
+            <String CONTENT="l'effroyable" HEIGHT="52" WIDTH="259" VPOS="540" HPOS="780" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="620" VPOS="579" HPOS="-5" HEIGHT="59" WIDTH="869">
+            <String CONTENT="orage" HEIGHT="50" WIDTH="121" VPOS="579" HPOS="7" WC="1"/>
+            <SP WIDTH="4" VPOS="579" HPOS="128"/>
+            <String CONTENT="qui" HEIGHT="49" WIDTH="65" VPOS="580" HPOS="168" WC="1"/>
+            <SP WIDTH="4" VPOS="580" HPOS="234"/>
+            <String CONTENT="grondait" HEIGHT="51" WIDTH="189" VPOS="581" HPOS="267" WC="1"/>
+            <SP WIDTH="4" VPOS="581" HPOS="457"/>
+            <String CONTENT="dans" HEIGHT="50" WIDTH="99" VPOS="583" HPOS="496" WC="1"/>
+            <SP WIDTH="4" VPOS="583" HPOS="596"/>
+            <String CONTENT="son" HEIGHT="50" WIDTH="65" VPOS="585" HPOS="636" WC="1"/>
+            <SP WIDTH="4" VPOS="585" HPOS="702"/>
+            <String CONTENT="âme." HEIGHT="51" WIDTH="118" VPOS="587" HPOS="745" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="675" VPOS="633" HPOS="36" HEIGHT="59" WIDTH="1010">
+            <String CONTENT="II" HEIGHT="49" WIDTH="38" VPOS="634" HPOS="48" WC="1"/>
+            <SP WIDTH="4" VPOS="634" HPOS="86"/>
+            <String CONTENT="entra" HEIGHT="50" WIDTH="112" VPOS="634" HPOS="119" WC="1"/>
+            <SP WIDTH="4" VPOS="634" HPOS="232"/>
+            <String CONTENT="dans" HEIGHT="50" WIDTH="100" VPOS="635" HPOS="275" WC="1"/>
+            <SP WIDTH="4" VPOS="635" HPOS="375"/>
+            <String CONTENT="le" HEIGHT="49" WIDTH="37" VPOS="636" HPOS="408" WC="1"/>
+            <SP WIDTH="4" VPOS="636" HPOS="446"/>
+            <String CONTENT="bureau" HEIGHT="51" WIDTH="146" VPOS="637" HPOS="483" WC="1"/>
+            <SP WIDTH="4" VPOS="637" HPOS="629"/>
+            <String CONTENT="sans" HEIGHT="50" WIDTH="96" VPOS="639" HPOS="679" WC="1"/>
+            <SP WIDTH="4" VPOS="639" HPOS="775"/>
+            <String CONTENT="prononcer" HEIGHT="52" WIDTH="233" VPOS="641" HPOS="806" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="722" VPOS="679" HPOS="-5" HEIGHT="63" WIDTH="1052">
+            <String CONTENT="une" HEIGHT="49" WIDTH="79" VPOS="679" HPOS="3" WC="1"/>
+            <SP WIDTH="4" VPOS="679" HPOS="82"/>
+            <String CONTENT="parole." HEIGHT="50" WIDTH="166" VPOS="681" HPOS="109" WC="1"/>
+            <SP WIDTH="4" VPOS="681" HPOS="275"/>
+            <String CONTENT="—" HEIGHT="48" WIDTH="15" VPOS="683" HPOS="298" WC="1"/>
+            <SP WIDTH="4" VPOS="683" HPOS="314"/>
+            <String CONTENT="Ses" HEIGHT="48" WIDTH="70" VPOS="684" HPOS="371" WC="1"/>
+            <SP WIDTH="4" VPOS="684" HPOS="441"/>
+            <String CONTENT="regards" HEIGHT="50" WIDTH="172" VPOS="686" HPOS="470" WC="1"/>
+            <SP WIDTH="4" VPOS="686" HPOS="643"/>
+            <String CONTENT="se" HEIGHT="48" WIDTH="39" VPOS="688" HPOS="675" WC="1"/>
+            <SP WIDTH="4" VPOS="688" HPOS="715"/>
+            <String CONTENT="fixèrent" HEIGHT="50" WIDTH="178" VPOS="689" HPOS="741" WC="1"/>
+            <SP WIDTH="4" VPOS="689" HPOS="920"/>
+            <String CONTENT="tour" HEIGHT="49" WIDTH="88" VPOS="692" HPOS="946" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="770" VPOS="728" HPOS="-5" HEIGHT="61" WIDTH="1049">
+            <String CONTENT="à" HEIGHT="48" WIDTH="16" VPOS="728" HPOS="3" WC="1"/>
+            <SP WIDTH="4" VPOS="728" HPOS="19"/>
+            <String CONTENT="tour," HEIGHT="49" WIDTH="113" VPOS="728" HPOS="61" WC="1"/>
+            <SP WIDTH="4" VPOS="728" HPOS="174"/>
+            <String CONTENT="avec" HEIGHT="49" WIDTH="94" VPOS="729" HPOS="216" WC="1"/>
+            <SP WIDTH="4" VPOS="729" HPOS="311"/>
+            <String CONTENT="une" HEIGHT="49" WIDTH="73" VPOS="731" HPOS="359" WC="1"/>
+            <SP WIDTH="4" VPOS="731" HPOS="432"/>
+            <String CONTENT="expression" HEIGHT="51" WIDTH="234" VPOS="732" HPOS="480" WC="1"/>
+            <SP WIDTH="4" VPOS="732" HPOS="715"/>
+            <String CONTENT="effrayante," HEIGHT="52" WIDTH="252" VPOS="736" HPOS="790" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="816" VPOS="773" HPOS="-5" HEIGHT="63" WIDTH="1052">
+            <String CONTENT="sur" HEIGHT="49" WIDTH="70" VPOS="772" HPOS="3" WC="1"/>
+            <SP WIDTH="4" VPOS="772" HPOS="74"/>
+            <String CONTENT="André" HEIGHT="49" WIDTH="128" VPOS="774" HPOS="109" WC="1"/>
+            <SP WIDTH="4" VPOS="774" HPOS="237"/>
+            <String CONTENT="de" HEIGHT="48" WIDTH="40" VPOS="776" HPOS="276" WC="1"/>
+            <SP WIDTH="4" VPOS="776" HPOS="316"/>
+            <String CONTENT="Villers" HEIGHT="50" WIDTH="143" VPOS="777" HPOS="352" WC="1"/>
+            <SP WIDTH="4" VPOS="777" HPOS="495"/>
+            <String CONTENT="et" HEIGHT="48" WIDTH="34" VPOS="779" HPOS="533" WC="1"/>
+            <SP WIDTH="4" VPOS="779" HPOS="567"/>
+            <String CONTENT="sur" HEIGHT="49" WIDTH="70" VPOS="780" HPOS="594" WC="1"/>
+            <SP WIDTH="4" VPOS="780" HPOS="664"/>
+            <String CONTENT="Lucie," HEIGHT="50" WIDTH="143" VPOS="782" HPOS="697" WC="1"/>
+            <SP WIDTH="4" VPOS="782" HPOS="840"/>
+            <String CONTENT="puis" HEIGHT="49" WIDTH="91" VPOS="784" HPOS="867" WC="1"/>
+            <SP WIDTH="4" VPOS="784" HPOS="958"/>
+            <String CONTENT="ils" HEIGHT="49" WIDTH="55" VPOS="786" HPOS="985" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="862" VPOS="821" HPOS="-5" HEIGHT="59" WIDTH="791">
+            <String CONTENT="s'arrêtèrent" HEIGHT="51" WIDTH="265" VPOS="820" HPOS="4" WC="1"/>
+            <SP WIDTH="4" VPOS="820" HPOS="269"/>
+            <String CONTENT="sur" HEIGHT="50" WIDTH="72" VPOS="823" HPOS="296" WC="1"/>
+            <SP WIDTH="4" VPOS="823" HPOS="368"/>
+            <String CONTENT="le" HEIGHT="49" WIDTH="37" VPOS="824" HPOS="396" WC="1"/>
+            <SP WIDTH="4" VPOS="824" HPOS="433"/>
+            <String CONTENT="contremaître." HEIGHT="54" WIDTH="317" VPOS="825" HPOS="467" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="919" VPOS="876" HPOS="36" HEIGHT="62" WIDTH="1008">
+            <String CONTENT="—" HEIGHT="49" WIDTH="19" VPOS="876" HPOS="48" WC="1"/>
+            <SP WIDTH="4" VPOS="876" HPOS="67"/>
+            <String CONTENT="Sortez..." HEIGHT="51" WIDTH="194" VPOS="876" HPOS="132" WC="1"/>
+            <SP WIDTH="4" VPOS="876" HPOS="327"/>
+            <String CONTENT="—" HEIGHT="49" WIDTH="16" VPOS="878" HPOS="354" WC="1"/>
+            <SP WIDTH="4" VPOS="878" HPOS="371"/>
+            <String CONTENT="dit-il" HEIGHT="51" WIDTH="103" VPOS="879" HPOS="432" WC="1"/>
+            <SP WIDTH="4" VPOS="879" HPOS="536"/>
+            <String CONTENT="à" HEIGHT="50" WIDTH="19" VPOS="881" HPOS="573" WC="1"/>
+            <SP WIDTH="4" VPOS="881" HPOS="593"/>
+            <String CONTENT="ce" HEIGHT="50" WIDTH="44" VPOS="882" HPOS="633" WC="1"/>
+            <SP WIDTH="4" VPOS="882" HPOS="677"/>
+            <String CONTENT="dernier" HEIGHT="52" WIDTH="156" VPOS="883" HPOS="720" WC="1"/>
+            <SP WIDTH="4" VPOS="883" HPOS="877"/>
+            <String CONTENT="d’une" HEIGHT="51" WIDTH="109" VPOS="886" HPOS="920" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="965" VPOS="926" HPOS="-5" HEIGHT="57" WIDTH="669">
+            <String CONTENT="voix" HEIGHT="49" WIDTH="85" VPOS="926" HPOS="4" WC="1"/>
+            <SP WIDTH="4" VPOS="926" HPOS="89"/>
+            <String CONTENT="sourde" HEIGHT="50" WIDTH="154" VPOS="927" HPOS="123" WC="1"/>
+            <SP WIDTH="4" VPOS="927" HPOS="277"/>
+            <String CONTENT="et" HEIGHT="49" WIDTH="35" VPOS="928" HPOS="304" WC="1"/>
+            <SP WIDTH="4" VPOS="928" HPOS="340"/>
+            <String CONTENT="décomposée." HEIGHT="53" WIDTH="294" VPOS="928" HPOS="367" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1023" VPOS="979" HPOS="23" HEIGHT="64" WIDTH="1017">
+            <String CONTENT="—" HEIGHT="51" WIDTH="17" VPOS="980" HPOS="48" WC="1"/>
+            <SP WIDTH="4" VPOS="980" HPOS="66"/>
+            <String CONTENT="Mais..." HEIGHT="52" WIDTH="163" VPOS="980" HPOS="119" WC="1"/>
+            <SP WIDTH="4" VPOS="980" HPOS="283"/>
+            <String CONTENT="monsieur..." HEIGHT="54" WIDTH="273" VPOS="981" HPOS="308" WC="1"/>
+            <SP WIDTH="4" VPOS="981" HPOS="581"/>
+            <String CONTENT="—" HEIGHT="51" WIDTH="16" VPOS="984" HPOS="606" WC="1"/>
+            <SP WIDTH="4" VPOS="984" HPOS="623"/>
+            <String CONTENT="balbutia" HEIGHT="54" WIDTH="185" VPOS="985" HPOS="677" WC="1"/>
+            <SP WIDTH="4" VPOS="985" HPOS="862"/>
+            <String CONTENT="Pierre" HEIGHT="54" WIDTH="136" VPOS="989" HPOS="898" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1065" VPOS="1027" HPOS="-5" HEIGHT="53" WIDTH="200">
+            <String CONTENT="Landry." HEIGHT="53" WIDTH="197" VPOS="1026" HPOS="-2" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1117" VPOS="1075" HPOS="36" HEIGHT="59" WIDTH="1004">
+            <String CONTENT="M." HEIGHT="49" WIDTH="62" VPOS="1075" HPOS="48" WC="1"/>
+            <SP WIDTH="4" VPOS="1075" HPOS="110"/>
+            <String CONTENT="Verdier" HEIGHT="50" WIDTH="164" VPOS="1076" HPOS="134" WC="1"/>
+            <SP WIDTH="4" VPOS="1076" HPOS="298"/>
+            <String CONTENT="étendit" HEIGHT="50" WIDTH="154" VPOS="1077" HPOS="331" WC="1"/>
+            <SP WIDTH="4" VPOS="1077" HPOS="486"/>
+            <String CONTENT="la" HEIGHT="49" WIDTH="37" VPOS="1079" HPOS="513" WC="1"/>
+            <SP WIDTH="4" VPOS="1079" HPOS="551"/>
+            <String CONTENT="main" HEIGHT="50" WIDTH="108" VPOS="1080" HPOS="581" WC="1"/>
+            <SP WIDTH="4" VPOS="1080" HPOS="689"/>
+            <String CONTENT="vers" HEIGHT="50" WIDTH="89" VPOS="1081" HPOS="732" WC="1"/>
+            <SP WIDTH="4" VPOS="1081" HPOS="822"/>
+            <String CONTENT="la" HEIGHT="49" WIDTH="37" VPOS="1083" HPOS="849" WC="1"/>
+            <SP WIDTH="4" VPOS="1083" HPOS="887"/>
+            <String CONTENT="porte" HEIGHT="50" WIDTH="117" VPOS="1084" HPOS="917" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1163" VPOS="1122" HPOS="-5" HEIGHT="63" WIDTH="1045">
+            <String CONTENT="par" HEIGHT="48" WIDTH="77" VPOS="1122" HPOS="-2" WC="1"/>
+            <SP WIDTH="4" VPOS="1122" HPOS="74"/>
+            <String CONTENT="un" HEIGHT="48" WIDTH="40" VPOS="1122" HPOS="109" WC="1"/>
+            <SP WIDTH="4" VPOS="1122" HPOS="150"/>
+            <String CONTENT="geste" HEIGHT="48" WIDTH="110" VPOS="1122" HPOS="197" WC="1"/>
+            <SP WIDTH="4" VPOS="1122" HPOS="308"/>
+            <String CONTENT="de" HEIGHT="48" WIDTH="40" VPOS="1123" HPOS="349" WC="1"/>
+            <SP WIDTH="4" VPOS="1123" HPOS="389"/>
+            <String CONTENT="suprême" HEIGHT="51" WIDTH="194" VPOS="1123" HPOS="425" WC="1"/>
+            <SP WIDTH="4" VPOS="1123" HPOS="620"/>
+            <String CONTENT="commandeme" HEIGHT="55" WIDTH="309" VPOS="1127" HPOS="658" WC="1"/>
+            <SP WIDTH="4" VPOS="1127" HPOS="968"/>
+            <String CONTENT="it," HEIGHT="49" WIDTH="51" VPOS="1135" HPOS="986" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1208" VPOS="1170" HPOS="-5" HEIGHT="55" WIDTH="764">
+            <String CONTENT="et" HEIGHT="48" WIDTH="36" VPOS="1169" HPOS="3" WC="1"/>
+            <SP WIDTH="4" VPOS="1169" HPOS="40"/>
+            <String CONTENT="répéta" HEIGHT="48" WIDTH="135" VPOS="1169" HPOS="67" WC="1"/>
+            <SP WIDTH="4" VPOS="1169" HPOS="202"/>
+            <String CONTENT="d'un" HEIGHT="48" WIDTH="84" VPOS="1170" HPOS="244" WC="1"/>
+            <SP WIDTH="4" VPOS="1170" HPOS="329"/>
+            <String CONTENT="ton" HEIGHT="48" WIDTH="57" VPOS="1172" HPOS="370" WC="1"/>
+            <SP WIDTH="4" VPOS="1172" HPOS="428"/>
+            <String CONTENT="impérieux" HEIGHT="51" WIDTH="225" VPOS="1173" HPOS="470" WC="1"/>
+            <SP WIDTH="4" VPOS="1173" HPOS="695"/>
+            <String CONTENT=":" HEIGHT="48" WIDTH="18" VPOS="1177" HPOS="734" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1253" VPOS="1215" HPOS="-5" HEIGHT="52" WIDTH="360">
+            <String CONTENT="-" HEIGHT="49" WIDTH="19" VPOS="1215" HPOS="41" WC="0.94"/>
+            <SP WIDTH="4" VPOS="1215" HPOS="61"/>
+            <String CONTENT="Sortez" HEIGHT="51" WIDTH="138" VPOS="1215" HPOS="123" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1215" HPOS="262"/>
+            <String CONTENT="!..." HEIGHT="51" WIDTH="69" VPOS="1217" HPOS="284" WC="1.0"/>
+          </TextLine>
+          <TextLine BASELINE="1311" VPOS="1269" HPOS="-5" HEIGHT="61" WIDTH="1046">
+            <String CONTENT="Le" HEIGHT="51" WIDTH="55" VPOS="1268" HPOS="43" WC="1"/>
+            <SP WIDTH="4" VPOS="1268" HPOS="98"/>
+            <String CONTENT="vieillard" HEIGHT="52" WIDTH="180" VPOS="1269" HPOS="133" WC="1"/>
+            <SP WIDTH="4" VPOS="1269" HPOS="313"/>
+            <String CONTENT="obéit" HEIGHT="52" WIDTH="109" VPOS="1271" HPOS="348" WC="1"/>
+            <SP WIDTH="4" VPOS="1271" HPOS="458"/>
+            <String CONTENT="en" HEIGHT="51" WIDTH="39" VPOS="1272" HPOS="487" WC="1"/>
+            <SP WIDTH="4" VPOS="1272" HPOS="526"/>
+            <String CONTENT="courbant" HEIGHT="53" WIDTH="203" VPOS="1273" HPOS="567" WC="1"/>
+            <SP WIDTH="4" VPOS="1273" HPOS="770"/>
+            <String CONTENT="la" HEIGHT="51" WIDTH="38" VPOS="1276" HPOS="796" WC="1"/>
+            <SP WIDTH="4" VPOS="1276" HPOS="835"/>
+            <String CONTENT="tête," HEIGHT="52" WIDTH="103" VPOS="1277" HPOS="863" WC="1"/>
+            <SP WIDTH="4" VPOS="1277" HPOS="967"/>
+            <String CONTENT="et" HEIGHT="51" WIDTH="38" VPOS="1279" HPOS="995" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1355" VPOS="1315" HPOS="-5" HEIGHT="53" WIDTH="506">
+            <String CONTENT="se" HEIGHT="49" WIDTH="43" VPOS="1316" HPOS="-1" WC="1"/>
+            <SP WIDTH="4" VPOS="1316" HPOS="41"/>
+            <String CONTENT="dit" HEIGHT="49" WIDTH="55" VPOS="1317" HPOS="78" WC="1"/>
+            <SP WIDTH="4" VPOS="1317" HPOS="133"/>
+            <String CONTENT="à" HEIGHT="48" WIDTH="15" VPOS="1318" HPOS="167" WC="1"/>
+            <SP WIDTH="4" VPOS="1318" HPOS="183"/>
+            <String CONTENT="lui-même" HEIGHT="49" WIDTH="216" VPOS="1318" HPOS="219" WC="1"/>
+            <SP WIDTH="4" VPOS="1318" HPOS="436"/>
+            <String CONTENT=":" HEIGHT="48" WIDTH="19" VPOS="1319" HPOS="475" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1411" VPOS="1366" HPOS="-5" HEIGHT="62" WIDTH="1015">
+            <String CONTENT="—" HEIGHT="49" WIDTH="15" VPOS="1367" HPOS="44" WC="1"/>
+            <SP WIDTH="4" VPOS="1367" HPOS="60"/>
+            <String CONTENT="Je" HEIGHT="50" WIDTH="40" VPOS="1368" HPOS="119" WC="1"/>
+            <SP WIDTH="4" VPOS="1368" HPOS="160"/>
+            <String CONTENT="suis" HEIGHT="51" WIDTH="84" VPOS="1369" HPOS="193" WC="1"/>
+            <SP WIDTH="4" VPOS="1369" HPOS="278"/>
+            <String CONTENT="comme" HEIGHT="51" WIDTH="156" VPOS="1371" HPOS="312" WC="1"/>
+            <SP WIDTH="4" VPOS="1371" HPOS="468"/>
+            <String CONTENT="Lucie..." HEIGHT="51" WIDTH="181" VPOS="1374" HPOS="501" WC="1"/>
+            <SP WIDTH="4" VPOS="1374" HPOS="682"/>
+            <String CONTENT="j'ai" HEIGHT="50" WIDTH="78" VPOS="1376" HPOS="700" WC="1"/>
+            <SP WIDTH="4" VPOS="1376" HPOS="779"/>
+            <String CONTENT="peur..." HEIGHT="50" WIDTH="156" VPOS="1377" HPOS="806" WC="1"/>
+            <SP WIDTH="4" VPOS="1377" HPOS="962"/>
+            <String CONTENT="-" HEIGHT="49" WIDTH="19" VPOS="1379" HPOS="983" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1458" VPOS="1420" HPOS="-5" HEIGHT="53" WIDTH="1035">
+            <String CONTENT="qu" HEIGHT="47" WIDTH="45" VPOS="1419" HPOS="-2" WC="1"/>
+            <SP WIDTH="4" VPOS="1419" HPOS="43"/>
+            <String CONTENT="va-t-il" HEIGHT="48" WIDTH="132" VPOS="1419" HPOS="102" WC="1"/>
+            <SP WIDTH="4" VPOS="1419" HPOS="235"/>
+            <String CONTENT="se" HEIGHT="47" WIDTH="39" VPOS="1419" HPOS="258" WC="1"/>
+            <SP WIDTH="4" VPOS="1419" HPOS="298"/>
+            <String CONTENT="passer" HEIGHT="48" WIDTH="144" VPOS="1420" HPOS="330" WC="1"/>
+            <SP WIDTH="4" VPOS="1420" HPOS="475"/>
+            <String CONTENT="1..." HEIGHT="48" WIDTH="75" VPOS="1421" HPOS="507" WC="1"/>
+            <SP WIDTH="4" VPOS="1421" HPOS="583"/>
+            <String CONTENT="—" HEIGHT="47" WIDTH="15" VPOS="1422" HPOS="603" WC="1"/>
+            <SP WIDTH="4" VPOS="1422" HPOS="619"/>
+            <String CONTENT="oh" HEIGHT="48" WIDTH="39" VPOS="1422" HPOS="675" WC="1"/>
+            <SP WIDTH="4" VPOS="1422" HPOS="715"/>
+            <String CONTENT="!" HEIGHT="47" WIDTH="15" VPOS="1423" HPOS="747" WC="1"/>
+            <SP WIDTH="4" VPOS="1423" HPOS="763"/>
+            <String CONTENT="je" HEIGHT="48" WIDTH="39" VPOS="1423" HPOS="786" WC="1"/>
+            <SP WIDTH="4" VPOS="1423" HPOS="826"/>
+            <String CONTENT="ne" HEIGHT="48" WIDTH="51" VPOS="1424" HPOS="852" WC="1"/>
+            <SP WIDTH="4" VPOS="1424" HPOS="903"/>
+            <String CONTENT="m'é." HEIGHT="48" WIDTH="81" VPOS="1425" HPOS="933" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1502" VPOS="1465" HPOS="-5" HEIGHT="49" WIDTH="367">
+            <String CONTENT="loignerai" HEIGHT="49" WIDTH="206" VPOS="1465" HPOS="-5" WC="1"/>
+            <SP WIDTH="4" VPOS="1465" HPOS="201"/>
+            <String CONTENT="pas..." HEIGHT="47" WIDTH="129" VPOS="1466" HPOS="233" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1550" VPOS="1511" HPOS="31" HEIGHT="55" WIDTH="1001">
+            <String CONTENT="M." HEIGHT="48" WIDTH="60" VPOS="1510" HPOS="42" WC="1"/>
+            <SP WIDTH="4" VPOS="1510" HPOS="103"/>
+            <String CONTENT="Verdier" HEIGHT="49" WIDTH="165" VPOS="1511" HPOS="136" WC="1"/>
+            <SP WIDTH="4" VPOS="1511" HPOS="302"/>
+            <String CONTENT="referma" HEIGHT="49" WIDTH="177" VPOS="1512" HPOS="340" WC="1"/>
+            <SP WIDTH="4" VPOS="1512" HPOS="518"/>
+            <String CONTENT="la" HEIGHT="48" WIDTH="39" VPOS="1514" HPOS="548" WC="1"/>
+            <SP WIDTH="4" VPOS="1514" HPOS="587"/>
+            <String CONTENT="porte" HEIGHT="49" WIDTH="111" VPOS="1515" HPOS="626" WC="1"/>
+            <SP WIDTH="4" VPOS="1515" HPOS="738"/>
+            <String CONTENT="derrière" HEIGHT="49" WIDTH="174" VPOS="1516" HPOS="780" WC="1"/>
+            <SP WIDTH="4" VPOS="1516" HPOS="954"/>
+            <String CONTENT="le" HEIGHT="48" WIDTH="39" VPOS="1519" HPOS="987" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1597" VPOS="1559" HPOS="-5" HEIGHT="54" WIDTH="1041">
+            <String CONTENT="contremaître" HEIGHT="48" WIDTH="287" VPOS="1558" HPOS="-2" WC="1"/>
+            <SP WIDTH="4" VPOS="1558" HPOS="284"/>
+            <String CONTENT="et" HEIGHT="47" WIDTH="32" VPOS="1560" HPOS="316" WC="1"/>
+            <SP WIDTH="4" VPOS="1560" HPOS="349"/>
+            <String CONTENT="se" HEIGHT="47" WIDTH="47" VPOS="1560" HPOS="376" WC="1"/>
+            <SP WIDTH="4" VPOS="1560" HPOS="423"/>
+            <String CONTENT="int" HEIGHT="47" WIDTH="59" VPOS="1561" HPOS="467" WC="1"/>
+            <SP WIDTH="4" VPOS="1561" HPOS="527"/>
+            <String CONTENT="debout" HEIGHT="48" WIDTH="145" VPOS="1561" HPOS="556" WC="1"/>
+            <SP WIDTH="4" VPOS="1561" HPOS="701"/>
+            <String CONTENT="au" HEIGHT="47" WIDTH="38" VPOS="1563" HPOS="733" WC="1"/>
+            <SP WIDTH="4" VPOS="1563" HPOS="772"/>
+            <String CONTENT="milieu" HEIGHT="48" WIDTH="130" VPOS="1564" HPOS="813" WC="1"/>
+            <SP WIDTH="4" VPOS="1564" HPOS="943"/>
+            <String CONTENT="de" HEIGHT="47" WIDTH="44" VPOS="1566" HPOS="984" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1644" VPOS="1606" HPOS="-5" HEIGHT="56" WIDTH="1039">
+            <String CONTENT="la" HEIGHT="46" WIDTH="33" VPOS="1606" HPOS="-5" WC="1"/>
+            <SP WIDTH="4" VPOS="1606" HPOS="27"/>
+            <String CONTENT="pièce," HEIGHT="46" WIDTH="134" VPOS="1606" HPOS="67" WC="1"/>
+            <SP WIDTH="4" VPOS="1606" HPOS="202"/>
+            <String CONTENT="immobile" HEIGHT="47" WIDTH="212" VPOS="1606" HPOS="227" WC="1"/>
+            <SP WIDTH="4" VPOS="1606" HPOS="440"/>
+            <String CONTENT=".t" HEIGHT="46" WIDTH="35" VPOS="1608" HPOS="474" WC="1"/>
+            <SP WIDTH="4" VPOS="1608" HPOS="509"/>
+            <String CONTENT="les" HEIGHT="47" WIDTH="64" VPOS="1608" HPOS="538" WC="1"/>
+            <SP WIDTH="4" VPOS="1608" HPOS="602"/>
+            <String CONTENT="bras" HEIGHT="47" WIDTH="96" VPOS="1609" HPOS="637" WC="1"/>
+            <SP WIDTH="4" VPOS="1609" HPOS="733"/>
+            <String CONTENT="croisés" HEIGHT="48" WIDTH="151" VPOS="1611" HPOS="768" WC="1"/>
+            <SP WIDTH="4" VPOS="1611" HPOS="919"/>
+            <String CONTENT="sur" HEIGHT="47" WIDTH="66" VPOS="1614" HPOS="960" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1689" VPOS="1650" HPOS="-5" HEIGHT="55" WIDTH="1038">
+            <String CONTENT="sa" HEIGHT="47" WIDTH="35" VPOS="1649" HPOS="-2" WC="1"/>
+            <SP WIDTH="4" VPOS="1649" HPOS="33"/>
+            <String CONTENT="poitrine." HEIGHT="49" WIDTH="195" VPOS="1650" HPOS="69" WC="1"/>
+            <SP WIDTH="4" VPOS="1650" HPOS="264"/>
+            <String CONTENT="—" HEIGHT="47" WIDTH="17" VPOS="1652" HPOS="291" WC="1"/>
+            <SP WIDTH="4" VPOS="1652" HPOS="309"/>
+            <String CONTENT="Ses" HEIGHT="47" WIDTH="68" VPOS="1653" HPOS="365" WC="1"/>
+            <SP WIDTH="4" VPOS="1653" HPOS="433"/>
+            <String CONTENT="paupières" HEIGHT="48" WIDTH="216" VPOS="1653" HPOS="469" WC="1"/>
+            <SP WIDTH="4" VPOS="1653" HPOS="686"/>
+            <String CONTENT="abarssées" HEIGHT="48" WIDTH="210" VPOS="1655" HPOS="721" WC="1"/>
+            <SP WIDTH="4" VPOS="1655" HPOS="932"/>
+            <String CONTENT="dé-" HEIGHT="47" WIDTH="65" VPOS="1656" HPOS="967" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1735" VPOS="1694" HPOS="-5" HEIGHT="61" WIDTH="1035">
+            <String CONTENT="gageaient" HEIGHT="49" WIDTH="215" VPOS="1694" HPOS="-2" WC="1"/>
+            <SP WIDTH="4" VPOS="1694" HPOS="212"/>
+            <String CONTENT="une" HEIGHT="48" WIDTH="73" VPOS="1696" HPOS="245" WC="1"/>
+            <SP WIDTH="4" VPOS="1696" HPOS="318"/>
+            <String CONTENT="lueur" HEIGHT="49" WIDTH="112" VPOS="1697" HPOS="350" WC="1"/>
+            <SP WIDTH="4" VPOS="1697" HPOS="463"/>
+            <String CONTENT="fauve" HEIGHT="49" WIDTH="121" VPOS="1698" HPOS="501" WC="1"/>
+            <SP WIDTH="4" VPOS="1698" HPOS="623"/>
+            <String CONTENT=";" HEIGHT="48" WIDTH="15" VPOS="1701" HPOS="655" WC="1"/>
+            <SP WIDTH="4" VPOS="1701" HPOS="671"/>
+            <String CONTENT="—" HEIGHT="48" WIDTH="18" VPOS="1701" HPOS="697" WC="1"/>
+            <SP WIDTH="4" VPOS="1701" HPOS="716"/>
+            <String CONTENT="sa" HEIGHT="48" WIDTH="42" VPOS="1702" HPOS="770" WC="1"/>
+            <SP WIDTH="4" VPOS="1702" HPOS="813"/>
+            <String CONTENT="respira-" HEIGHT="51" WIDTH="181" VPOS="1704" HPOS="848" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1783" VPOS="1740" HPOS="-5" HEIGHT="62" WIDTH="1038">
+            <String CONTENT="tion" HEIGHT="49" WIDTH="74" VPOS="1739" HPOS="-5" WC="1"/>
+            <SP WIDTH="4" VPOS="1739" HPOS="69"/>
+            <String CONTENT="raprde" HEIGHT="50" WIDTH="141" VPOS="1741" HPOS="105" WC="1"/>
+            <SP WIDTH="4" VPOS="1741" HPOS="247"/>
+            <String CONTENT="et" HEIGHT="49" WIDTH="34" VPOS="1743" HPOS="283" WC="1"/>
+            <SP WIDTH="4" VPOS="1743" HPOS="317"/>
+            <String CONTENT="sifflante" HEIGHT="51" WIDTH="181" VPOS="1744" HPOS="347" WC="1"/>
+            <SP WIDTH="4" VPOS="1744" HPOS="529"/>
+            <String CONTENT="dilatait" HEIGHT="51" WIDTH="154" VPOS="1747" HPOS="566" WC="1"/>
+            <SP WIDTH="4" VPOS="1747" HPOS="720"/>
+            <String CONTENT="ses" HEIGHT="49" WIDTH="68" VPOS="1749" HPOS="747" WC="1"/>
+            <SP WIDTH="4" VPOS="1749" HPOS="815"/>
+            <String CONTENT="narines;" HEIGHT="51" WIDTH="190" VPOS="1750" HPOS="842" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1830" VPOS="1788" HPOS="-5" HEIGHT="66" WIDTH="1029">
+            <String CONTENT="—" HEIGHT="48" WIDTH="16" VPOS="1787" HPOS="-5" WC="1"/>
+            <SP WIDTH="4" VPOS="1787" HPOS="11"/>
+            <String CONTENT="une" HEIGHT="48" WIDTH="76" VPOS="1787" HPOS="70" WC="1"/>
+            <SP WIDTH="4" VPOS="1787" HPOS="147"/>
+            <String CONTENT="sorte" HEIGHT="49" WIDTH="110" VPOS="1788" HPOS="181" WC="1"/>
+            <SP WIDTH="4" VPOS="1788" HPOS="291"/>
+            <String CONTENT="de" HEIGHT="48" WIDTH="46" VPOS="1790" HPOS="326" WC="1"/>
+            <SP WIDTH="4" VPOS="1790" HPOS="373"/>
+            <String CONTENT="tremblement" HEIGHT="53" WIDTH="290" VPOS="1791" HPOS="405" WC="1"/>
+            <SP WIDTH="4" VPOS="1791" HPOS="696"/>
+            <String CONTENT="nerveux" HEIGHT="52" WIDTH="181" VPOS="1797" HPOS="728" WC="1"/>
+            <SP WIDTH="4" VPOS="1797" HPOS="910"/>
+            <String CONTENT="ag!" HEIGHT="50" WIDTH="69" VPOS="1802" HPOS="946" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1873" VPOS="1835" HPOS="-5" HEIGHT="53" WIDTH="581">
+            <String CONTENT="tait" HEIGHT="48" WIDTH="72" VPOS="1835" HPOS="-5" WC="1"/>
+            <SP WIDTH="4" VPOS="1835" HPOS="67"/>
+            <String CONTENT="sa" HEIGHT="48" WIDTH="39" VPOS="1836" HPOS="100" WC="1"/>
+            <SP WIDTH="4" VPOS="1836" HPOS="139"/>
+            <String CONTENT="lèvre" HEIGHT="48" WIDTH="114" VPOS="1836" HPOS="166" WC="1"/>
+            <SP WIDTH="4" VPOS="1836" HPOS="281"/>
+            <String CONTENT="supériedre." HEIGHT="50" WIDTH="265" VPOS="1837" HPOS="310" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1923" VPOS="1879" HPOS="-5" HEIGHT="64" WIDTH="1037">
+            <String CONTENT="Lucie" HEIGHT="51" WIDTH="119" VPOS="1879" HPOS="40" WC="1"/>
+            <SP WIDTH="4" VPOS="1879" HPOS="160"/>
+            <String CONTENT="fit" HEIGHT="49" WIDTH="46" VPOS="1883" HPOS="200" WC="1"/>
+            <SP WIDTH="4" VPOS="1883" HPOS="246"/>
+            <String CONTENT="deux" HEIGHT="50" WIDTH="98" VPOS="1884" HPOS="282" WC="1"/>
+            <SP WIDTH="4" VPOS="1884" HPOS="381"/>
+            <String CONTENT="pas" HEIGHT="49" WIDTH="77" VPOS="1887" HPOS="423" WC="1"/>
+            <SP WIDTH="4" VPOS="1887" HPOS="501"/>
+            <String CONTENT="en" HEIGHT="49" WIDTH="34" VPOS="1888" HPOS="543" WC="1"/>
+            <SP WIDTH="4" VPOS="1888" HPOS="577"/>
+            <String CONTENT="avant" HEIGHT="50" WIDTH="132" VPOS="1889" HPOS="629" WC="1"/>
+            <SP WIDTH="4" VPOS="1889" HPOS="761"/>
+            <String CONTENT="et" HEIGHT="49" WIDTH="37" VPOS="1891" HPOS="822" WC="1"/>
+            <SP WIDTH="4" VPOS="1891" HPOS="859"/>
+            <String CONTENT="mur-" HEIGHT="49" WIDTH="111" VPOS="1892" HPOS="920" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="1963" VPOS="1924" HPOS="-5" HEIGHT="53" WIDTH="177">
+            <String CONTENT="mura" HEIGHT="52" WIDTH="113" VPOS="1923" HPOS="-2" WC="1"/>
+            <SP WIDTH="4" VPOS="1923" HPOS="111"/>
+            <String CONTENT=":" HEIGHT="48" WIDTH="21" VPOS="1928" HPOS="152" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="2009" VPOS="1971" HPOS="-5" HEIGHT="55" WIDTH="401">
+            <String CONTENT="—" HEIGHT="47" WIDTH="16" VPOS="1971" HPOS="42" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1971" HPOS="58"/>
+            <String CONTENT="Mon" HEIGHT="48" WIDTH="87" VPOS="1972" HPOS="114" WC="1.0"/>
+            <SP WIDTH="4" VPOS="1972" HPOS="202"/>
+            <String CONTENT="père..." HEIGHT="51" WIDTH="153" VPOS="1975" HPOS="243" WC="1.0"/>
+          </TextLine>
+          <TextLine BASELINE="2061" VPOS="2014" HPOS="-5" HEIGHT="72" WIDTH="1035">
+            <String CONTENT="—" HEIGHT="49" WIDTH="16" VPOS="2014" HPOS="44" WC="1"/>
+            <SP WIDTH="4" VPOS="2014" HPOS="60"/>
+            <String CONTENT="Silence" HEIGHT="52" WIDTH="156" VPOS="2015" HPOS="118" WC="1"/>
+            <SP WIDTH="4" VPOS="2015" HPOS="274"/>
+            <String CONTENT="1..." HEIGHT="50" WIDTH="66" VPOS="2019" HPOS="301" WC="1"/>
+            <SP WIDTH="4" VPOS="2019" HPOS="367"/>
+            <String CONTENT="—" HEIGHT="49" WIDTH="16" VPOS="2021" HPOS="390" WC="1"/>
+            <SP WIDTH="4" VPOS="2021" HPOS="407"/>
+            <String CONTENT="commanda" HEIGHT="54" WIDTH="242" VPOS="2023" HPOS="468" WC="1"/>
+            <SP WIDTH="4" VPOS="2023" HPOS="710"/>
+            <String CONTENT="M." HEIGHT="50" WIDTH="63" VPOS="2029" HPOS="746" WC="1"/>
+            <SP WIDTH="4" VPOS="2029" HPOS="809"/>
+            <String CONTENT="Verdier." HEIGHT="53" WIDTH="186" VPOS="2031" HPOS="842" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="2108" VPOS="2065" HPOS="-5" HEIGHT="63" WIDTH="1034">
+            <String CONTENT="en" HEIGHT="48" WIDTH="39" VPOS="2063" HPOS="-5" WC="1"/>
+            <SP WIDTH="4" VPOS="2063" HPOS="34"/>
+            <String CONTENT="se" HEIGHT="48" WIDTH="39" VPOS="2065" HPOS="84" WC="1"/>
+            <SP WIDTH="4" VPOS="2065" HPOS="124"/>
+            <String CONTENT="dirigeant" HEIGHT="51" WIDTH="204" VPOS="2066" HPOS="165" WC="1"/>
+            <SP WIDTH="4" VPOS="2066" HPOS="370"/>
+            <String CONTENT="vers" HEIGHT="49" WIDTH="90" VPOS="2071" HPOS="412" WC="1"/>
+            <SP WIDTH="4" VPOS="2071" HPOS="502"/>
+            <String CONTENT="le" HEIGHT="48" WIDTH="36" VPOS="2073" HPOS="541" WC="1"/>
+            <SP WIDTH="4" VPOS="2073" HPOS="578"/>
+            <String CONTENT="bureau" HEIGHT="50" WIDTH="150" VPOS="2074" HPOS="619" WC="1"/>
+            <SP WIDTH="4" VPOS="2074" HPOS="770"/>
+            <String CONTENT="et" HEIGHT="48" WIDTH="33" VPOS="2077" HPOS="823" WC="1"/>
+            <SP WIDTH="4" VPOS="2077" HPOS="857"/>
+            <String CONTENT="en" HEIGHT="48" WIDTH="36" VPOS="2078" HPOS="898" WC="1"/>
+            <SP WIDTH="4" VPOS="2078" HPOS="935"/>
+            <String CONTENT="ce" HEIGHT="48" WIDTH="42" VPOS="2079" HPOS="979" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="2155" VPOS="2110" HPOS="-5" HEIGHT="62" WIDTH="1033">
+            <String CONTENT="laissant" HEIGHT="53" WIDTH="174" VPOS="2108" HPOS="-5" WC="1"/>
+            <SP WIDTH="4" VPOS="2108" HPOS="169"/>
+            <String CONTENT="tomber" HEIGHT="52" WIDTH="155" VPOS="2113" HPOS="203" WC="1"/>
+            <SP WIDTH="4" VPOS="2113" HPOS="359"/>
+            <String CONTENT="sur" HEIGHT="50" WIDTH="71" VPOS="2117" HPOS="396" WC="1"/>
+            <SP WIDTH="4" VPOS="2117" HPOS="468"/>
+            <String CONTENT="le" HEIGHT="50" WIDTH="37" VPOS="2118" HPOS="501" WC="1"/>
+            <SP WIDTH="4" VPOS="2118" HPOS="539"/>
+            <String CONTENT="fauteuil" HEIGHT="51" WIDTH="178" VPOS="2119" HPOS="570" WC="1"/>
+            <SP WIDTH="4" VPOS="2119" HPOS="748"/>
+            <String CONTENT="habituelle-" HEIGHT="51" WIDTH="249" VPOS="2122" HPOS="778" WC="1"/>
+          </TextLine>
+          <TextLine BASELINE="2200" VPOS="2157" HPOS="-5" HEIGHT="61" WIDTH="695">
+            <String CONTENT="ment" HEIGHT="50" WIDTH="108" VPOS="2156" HPOS="-5" WC="1"/>
+            <SP WIDTH="4" VPOS="2156" HPOS="102"/>
+            <String CONTENT="occupé" HEIGHT="51" WIDTH="144" VPOS="2158" HPOS="135" WC="1"/>
+            <SP WIDTH="4" VPOS="2158" HPOS="280"/>
+            <String CONTENT="par" HEIGHT="50" WIDTH="71" VPOS="2162" HPOS="316" WC="1"/>
+            <SP WIDTH="4" VPOS="2162" HPOS="388"/>
+            <String CONTENT="e" HEIGHT="49" WIDTH="16" VPOS="2165" HPOS="445" WC="1"/>
+            <SP WIDTH="4" VPOS="2165" HPOS="461"/>
+            <String CONTENT="caissier." HEIGHT="52" WIDTH="190" VPOS="2166" HPOS="497" WC="1"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

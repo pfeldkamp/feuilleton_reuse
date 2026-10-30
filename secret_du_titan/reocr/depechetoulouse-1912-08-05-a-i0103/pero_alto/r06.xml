@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alto xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>r06</fileName>
+    </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2026-10-29T16:14:47.234777</processingDateTime>
+        <processingSoftware>
+          <softwareCreator>Project PERO</softwareCreator>
+          <softwareName>PERO OCR</softwareName>
+          <softwareVersion>v0.1.0</softwareVersion>
+        </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Layout>
+    <Page ID="id_r06" PHYSICAL_IMG_NR="1" HEIGHT="160" WIDTH="1092">
+      <TopMargin HEIGHT="-38" WIDTH="1092" VPOS="0" HPOS="0"/>
+      <LeftMargin HEIGHT="160" WIDTH="160" VPOS="0" HPOS="0"/>
+      <RightMargin HEIGHT="160" WIDTH="0" VPOS="0" HPOS="1092"/>
+      <BottomMargin HEIGHT="0" WIDTH="1092" VPOS="160" HPOS="0"/>
+      <PrintSpace HEIGHT="198" WIDTH="931" VPOS="-38" HPOS="160">
+        <TextBlock ID="block_r000" HEIGHT="51" WIDTH="40" VPOS="-38" HPOS="160"/>
+        <TextBlock ID="block_r002" HEIGHT="53" WIDTH="104" VPOS="4" HPOS="483">
+          <TextLine BASELINE="44" VPOS="4" HPOS="483" HEIGHT="53" WIDTH="104">
+            <String CONTENT="XII" HEIGHT="53" WIDTH="80" VPOS="4" HPOS="500" WC="1"/>
+          </TextLine>
+        </TextBlock>
+        <TextBlock ID="block_r001" HEIGHT="59" WIDTH="253" VPOS="95" HPOS="406">
+          <TextLine BASELINE="139" VPOS="95" HPOS="406" HEIGHT="59" WIDTH="253">
+            <String CONTENT="LA" HEIGHT="54" WIDTH="59" VPOS="99" HPOS="418" WC="1.0"/>
+            <SP WIDTH="4" VPOS="99" HPOS="478"/>
+            <String CONTENT="NUIT" HEIGHT="57" WIDTH="124" VPOS="95" HPOS="518" WC="1.0"/>
+          </TextLine>
+        </TextBlock>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>
