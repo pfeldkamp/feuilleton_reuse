@@ -40,6 +40,9 @@ Notes: German (1891) is 21 years *older* than this French run, so the French ori
 
 Also found: *Les Filles de bronze* FR in Le Figaro (Oct 1879 – Feb 1880) and La Dépêche (Oct 1889); no German version found yet.
 
+Secret du Titan: also a polish version here: https://pl.wikisource.org/wiki/Tajemnica_Tytana
+
+
 ## added the OCR of scans that have "texte illegible"
 - 14 installments re-OCR'd with Tesseract (`reocr_broken_fr.py`), flagged `"ocr_source": "tesseract"` in fr.jsonl
 
